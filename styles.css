@@ -1,1 +1,32 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
 
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbetween {
+  justify-content: space-between;
+}
+
+.white {
+  background-color: white;
+}
+
+.rounded {
+  border-radius: .25rem;
+}
+
+.header {
+  position: sticky;
+  background-color: black;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.headeritem {
+  color: white;
+}
