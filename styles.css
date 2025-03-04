@@ -1,3 +1,7 @@
+body {
+  font-family: "Moon Light", sans-serif;
+}
+
 .flexrow {
   display: flex;
   flex-direction: row;
@@ -12,6 +16,18 @@
   justify-content: space-between;
 }
 
+.flexaround {
+  justify-content: space-around;
+}
+
+.flexend {
+  justify-content: flex-end;
+}
+
+.marginright {
+  margin-right: 1rem;
+}
+
 .white {
   background-color: white;
 }
@@ -20,13 +36,42 @@
   border-radius: .25rem;
 }
 
+.padded {
+  padding: 1rem;
+}
+
 .header {
   position: sticky;
   background-color: black;
   height: 4rem;
-  padding: 1rem;
+  font-family: "Moon Regular";
 }
 
 .headeritem {
   color: white;
+  align-self: center;
+  font-size: larger;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Moon Light";
+  src: 
+    local("Moon2.0-Light"),
+    url("fonts/Moon2.0-Light.otf");
+}
+
+@font-face {
+  font-family: "Moon Regular";
+  src:
+    local("Moon2.0-Regular"),
+    url("fonts/Moon2.0-Regular.otf");
+}
+
+@font-face {
+  font-family: "Moon Bold";
+  src:
+    local("Moon2.0-Bold"),
+    url("fonts/Moon2.0-Bold.otf");
 }
