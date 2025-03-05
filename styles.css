@@ -7,13 +7,6 @@ body {
   color: #012326
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Moon Bold";
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -90,7 +83,7 @@ h4 {
 }
 
 .lightblue {
-  background-color: #71C8FB;
+  background-color: #35B8F2;
 }
 
 .green {
@@ -124,7 +117,7 @@ h4 {
 }
 
 .lightbluetext {
-  color: #71C8FB;
+  color: #35B8F2;
 }
 
 .greentext {
