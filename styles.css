@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Moon Regular", sans-serif;
   color: #012326
@@ -119,6 +123,10 @@ h4 {
   color: #5699BF;
 }
 
+.lightbluetext {
+  color: #71C8FB;
+}
+
 .greentext {
   color: #56BFA1;
 }
@@ -151,7 +159,7 @@ h4 {
 
 .header {
   position: sticky;
-  height: 4rem;
+  height: 5.5rem;
   font-family: "Moon Regular";
 }
 
