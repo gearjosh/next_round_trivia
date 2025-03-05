@@ -81,6 +81,14 @@ h4 {
   background-color: #012326;
 }
 
+.blue {
+  background-color: #5699BF;
+}
+
+.lightblue {
+  background-color: #71C8FB;
+}
+
 .green {
   background-color: #56BFA1;
 }
@@ -97,7 +105,7 @@ h4 {
   background-color: #F2A0A0;
 }
 
-/* Text Colors */
+/* Text */
 
 .whitetext {
   color: #FFFFFF;
@@ -105,6 +113,10 @@ h4 {
 
 .blacktext {
   color: #012326;
+}
+
+.bluetext {
+  color: #5699BF;
 }
 
 .greentext {
@@ -123,6 +135,18 @@ h4 {
   color: #F2A0A0;
 }
 
+.alfa {
+  font-family: "Alfa Slab";
+}
+
+.light {
+  font-family: "Moon Light";
+}
+
+.bold {
+  font-family: "Moon Bold";
+}
+
 /* Specific Elements */
 
 .header {
@@ -135,6 +159,10 @@ h4 {
   color: #FFFFFF;
   align-self: center;
   font-size: larger;
+}
+
+.headeritem:hover {
+  color: #71C8FB;
 }
 
 /* Fonts */
@@ -158,4 +186,11 @@ h4 {
   src:
     local("Moon2.0-Bold"),
     url("fonts/Moon2.0-Bold.otf");
+}
+
+@font-face {
+  font-family: "Alfa Slab";
+  src:
+    local("AlfaSlabOne-Regular"),
+    url("fonts/AlfaSlabOne-Regular.ttf");
 }
