@@ -1,6 +1,32 @@
 body {
-  font-family: "Moon Light", sans-serif;
+  font-family: "Moon Regular", sans-serif;
+  color: #012326
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Moon Bold";
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/* Flex */
 
 .flexrow {
   display: flex;
@@ -24,31 +50,89 @@ body {
   justify-content: flex-end;
 }
 
+/* Margins, Padding, and Box Formatting */
+
 .marginright {
   margin-right: 1rem;
-}
-
-.white {
-  background-color: white;
-}
-
-.rounded {
-  border-radius: .25rem;
 }
 
 .padded {
   padding: 1rem;
 }
 
+.rounded {
+  border-radius: .25rem;
+}
+
+/* Text Formatting */
+
+.bulletlist {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+/* Background Colors */
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.black {
+  background-color: #012326;
+}
+
+.green {
+  background-color: #56BFA1;
+}
+
+.ivory {
+  background-color: #F2E7DC;
+}
+
+.orange {
+  background-color: #F27B35;
+}
+
+.pink {
+  background-color: #F2A0A0;
+}
+
+/* Text Colors */
+
+.whitetext {
+  color: #FFFFFF;
+}
+
+.blacktext {
+  color: #012326;
+}
+
+.greentext {
+  color: #56BFA1;
+}
+
+.ivorytext {
+  color: #F2E7DC;
+}
+
+.orangetext {
+  color: #F27B35;
+}
+
+.pinktext {
+  color: #F2A0A0;
+}
+
+/* Specific Elements */
+
 .header {
   position: sticky;
-  background-color: black;
   height: 4rem;
   font-family: "Moon Regular";
 }
 
 .headeritem {
-  color: white;
+  color: #FFFFFF;
   align-self: center;
   font-size: larger;
 }
