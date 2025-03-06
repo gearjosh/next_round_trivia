@@ -4,24 +4,8 @@
 
 body {
   font-family: "Moon Regular", sans-serif;
-  /* font-size: 16pt; */
+  background-color: #F2E7DC;
   color: #012326
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.5rem;
 }
 
 /* Flex */
@@ -44,8 +28,28 @@ h4 {
   justify-content: space-around;
 }
 
+.flexstart {
+  justify-content: flex-start;
+}
+
+.flexcenter {
+  justify-content: center;
+}
+
 .flexend {
   justify-content: flex-end;
+}
+
+.flexaligntop {
+  align-items: flex-start;
+}
+
+.flexaligncenter {
+  align-items: center;
+}
+
+.flexalignbottom {
+  align-items: flex-end;
 }
 
 /* Margins, Padding, and Box Formatting */
@@ -90,6 +94,14 @@ h4 {
   height: 20rem;
 }
 
+.height25 {
+  height: 25rem;
+}
+
+.height30 {
+  height: 30rem;
+}
+
 .height40 {
   height: 40rem;
 }
@@ -98,12 +110,36 @@ h4 {
   height: 50rem;
 }
 
+.height80 {
+  height: 80rem;
+}
+
 .width10 {
   width: 10vw;
 }
 
+.widthhalf {
+  width: 50%;
+}
+
 .widththird {
   width: 33.333%
+}
+
+.width60percent {
+  width: 60%;
+}
+
+.width40percent {
+  width: 40%;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 
 /* Text Formatting */
@@ -113,10 +149,27 @@ h4 {
   margin-left: 1rem;
 }
 
+
+.h1text {
+  font-size: 3rem;
+}
+
+.h2text {
+  font-size: 2.5rem;
+}
+
+.h3text {
+  font-size: 2rem;
+}
+
+.h4text {
+  font-size: 1.5rem;
+}
+
 /* Background Colors */
 
 .white {
-  background-color: #FFFFFF;
+  background-color: #F2E7DC;
 }
 
 .black {
@@ -135,10 +188,6 @@ h4 {
   background-color: #56BFA1;
 }
 
-.ivory {
-  background-color: #F2E7DC;
-}
-
 .orange {
   background-color: #F27B35;
 }
@@ -147,14 +196,38 @@ h4 {
   background-color: #F2A0A0;
 }
 
-.transparent {
-  opacity: 66%;
+.white50 {
+  background-color: #F2E7DC88;
+}
+
+.black50 {
+  background-color: #01232688;
+}
+
+.blue50 {
+  background-color: #5699BF88;
+}
+
+.lightblue50 {
+  background-color: #35B8F288;
+}
+
+.green50 {
+  background-color: #56BFA188;
+}
+
+.orange50 {
+  background-color: #F27B3588;
+}
+
+.pink50 {
+  background-color: #F2A0A088;
 }
 
 /* Text */
 
 .whitetext {
-  color: #FFFFFF;
+  color: #F2E7DC;
 }
 
 .blacktext {
@@ -171,10 +244,6 @@ h4 {
 
 .greentext {
   color: #56BFA1;
-}
-
-.ivorytext {
-  color: #F2E7DC;
 }
 
 .orangetext {
@@ -199,40 +268,75 @@ h4 {
 
 .hugetext {
   font-size: 8rem;
-  line-height: 150%;
 }
 
 .titletext {
   font-size: 5rem;
-  line-height: 150%;
+}
+
+.h1text {
+  font-size: 3rem;
+}
+
+.h2text {
+  font-size: 2.5rem;
+}
+
+.h3text {
+  font-size: 2rem;
+}
+
+.h4text {
+  font-size: 1.5rem;
 }
 
 .centertext {
   text-align: center;
 }
 
+.righttext {
+  text-align: right;
+}
+
 .titleshadow {
-  text-shadow: #5699BF 0 1rem, 
-  #56BFA1 0 2rem;
+  text-shadow: #5699BF 0 .85rem,
+    #56BFA1 0 1.7rem;
+}
+
+.titleshadowalt {
+  text-shadow: #F2A0A0 0 .85rem,
+    #56BFA1 0 1.7rem;
 }
 
 .blueshadow {
-  text-shadow: #5699BF 0 .25rem;
+  text-shadow: #5699BF 0 .125rem;
 }
 
 .greenshadow {
-  text-shadow: #56BFA1 0 .25rem;
+  text-shadow: #56BFA1 0 .125rem;
 }
 
 .pinkshadow {
-  text-shadow: #F2A0A0 0 .25rem;
+  text-shadow: #F2A0A0 0 .125rem;
+}
+
+.orangeshadow {
+  text-shadow: #F27B35 0 .125rem;
+}
+
+.blackshadow {
+  text-shadow: #012326 0 .125rem;
+}
+
+.whiteshadow {
+  text-shadow: #F2E7DC 0 .125rem;
 }
 
 /* Transformations */
 
 .tilt {
   transform: rotate(-9deg);
-  margin: 1rem 4rem;
+  margin: 1rem 4rem 6rem;
   max-width: fit-content;
 }
 
@@ -247,7 +351,7 @@ h4 {
 }
 
 .headeritem {
-  color: #FFFFFF;
+  color: #F2E7DC;
   align-self: center;
   font-size: larger;
 }
@@ -256,20 +360,32 @@ h4 {
   color: #71C8FB;
 }
 
+.curvedbox {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 1rem 5rem;
+}
+
+.tallbox {
+  width: 30vw;
+  height: 25rem;
+  border-radius: 1rem;
+}
+
 /* Background Images */
 
 .bgimg {
   position: relative;
   align-self: flex-start;
-  /* object-fit: contain; */
+  object-fit: contain;
 }
 
-.bgimg > img {
+.bgimg>img {
   width: 100%;
   opacity: 0;
 }
 
-.bgimg > div {
+.bgimg>div {
   position: absolute;
   top: 0;
   left: 0;
@@ -280,7 +396,7 @@ h4 {
 .img1 {
   background-image: url("img/boring_trivia.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .img2 {
@@ -301,11 +417,29 @@ h4 {
   background-position: center;
 }
 
+.img5 {
+  background-image: url("img/beam_roof.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img6 {
+  background-image: url("img/outdoor_sail.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img7 {
+  background-image: url("img/sunset_group.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
 /* Fonts */
 
 @font-face {
   font-family: "Moon Light";
-  src: 
+  src:
     local("Moon2.0-Light"),
     url("fonts/Moon2.0-Light.otf");
 }
