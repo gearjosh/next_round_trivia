@@ -4,6 +4,7 @@
 
 body {
   font-family: "Moon Regular", sans-serif;
+  /* font-size: 16pt; */
   color: #012326
 }
 
@@ -53,12 +54,56 @@ h4 {
   margin-right: 1rem;
 }
 
+.marginleft {
+  margin-left: 1rem;
+}
+
+.margintop {
+  margin-top: 1rem;
+}
+
+.marginbottom {
+  margin-bottom: 1rem;
+}
+
+.margincenter {
+  margin: 0 auto;
+}
+
 .padded {
   padding: 1rem;
 }
 
 .rounded {
   border-radius: .25rem;
+}
+
+.height5 {
+  height: 5rem;
+}
+
+.height10 {
+  height: 10rem;
+}
+
+.height20 {
+  height: 20rem;
+}
+
+.height40 {
+  height: 40rem;
+}
+
+.height50 {
+  height: 50rem;
+}
+
+.width10 {
+  width: 10vw;
+}
+
+.widththird {
+  width: 33.333%
 }
 
 /* Text Formatting */
@@ -102,6 +147,10 @@ h4 {
   background-color: #F2A0A0;
 }
 
+.transparent {
+  opacity: 66%;
+}
+
 /* Text */
 
 .whitetext {
@@ -136,7 +185,7 @@ h4 {
   color: #F2A0A0;
 }
 
-.alfa {
+.slab {
   font-family: "Alfa Slab";
 }
 
@@ -148,12 +197,53 @@ h4 {
   font-family: "Moon Bold";
 }
 
+.hugetext {
+  font-size: 8rem;
+  line-height: 150%;
+}
+
+.titletext {
+  font-size: 5rem;
+  line-height: 150%;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.titleshadow {
+  text-shadow: #5699BF 0 1rem, 
+  #56BFA1 0 2rem;
+}
+
+.blueshadow {
+  text-shadow: #5699BF 0 .25rem;
+}
+
+.greenshadow {
+  text-shadow: #56BFA1 0 .25rem;
+}
+
+.pinkshadow {
+  text-shadow: #F2A0A0 0 .25rem;
+}
+
+/* Transformations */
+
+.tilt {
+  transform: rotate(-9deg);
+  margin: 1rem 4rem;
+  max-width: fit-content;
+}
+
 /* Specific Elements */
 
 .header {
   position: sticky;
+  top: 0;
   height: 5.5rem;
   font-family: "Moon Regular";
+  z-index: 10;
 }
 
 .headeritem {
@@ -164,6 +254,51 @@ h4 {
 
 .headeritem:hover {
   color: #71C8FB;
+}
+
+/* Background Images */
+
+.bgimg {
+  position: relative;
+  align-self: flex-start;
+  /* object-fit: contain; */
+}
+
+.bgimg > img {
+  width: 100%;
+  opacity: 0;
+}
+
+.bgimg > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img1 {
+  background-image: url("img/boring_trivia.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.img2 {
+  background-image: url("img/typewriter.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url("img/host_it.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.img4 {
+  background-image: url("img/play_it.png");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Fonts */
