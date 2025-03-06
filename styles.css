@@ -78,6 +78,10 @@ body {
   padding: 1rem;
 }
 
+.doublepadded {
+  padding: 2rem;
+}
+
 .rounded {
   border-radius: .25rem;
 }
