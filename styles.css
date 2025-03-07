@@ -40,7 +40,7 @@ body {
   justify-content: flex-end;
 }
 
-.flexaligntop {
+.flexalignstart {
   align-items: flex-start;
 }
 
@@ -48,7 +48,7 @@ body {
   align-items: center;
 }
 
-.flexalignbottom {
+.flexalignend {
   align-items: flex-end;
 }
 
