@@ -148,88 +148,6 @@ body {
 
 /* Text Formatting */
 
-.bulletlist {
-  list-style-type: disc;
-  margin-left: 1rem;
-}
-
-
-.h1text {
-  font-size: 3rem;
-}
-
-.h2text {
-  font-size: 2.5rem;
-}
-
-.h3text {
-  font-size: 2rem;
-}
-
-.h4text {
-  font-size: 1.5rem;
-}
-
-/* Background Colors */
-
-.white {
-  background-color: #F2E7DC;
-}
-
-.black {
-  background-color: #012326;
-}
-
-.blue {
-  background-color: #5699BF;
-}
-
-.lightblue {
-  background-color: #35B8F2;
-}
-
-.green {
-  background-color: #56BFA1;
-}
-
-.orange {
-  background-color: #F27B35;
-}
-
-.pink {
-  background-color: #F2A0A0;
-}
-
-.white50 {
-  background-color: #F2E7DC88;
-}
-
-.black50 {
-  background-color: #01232688;
-}
-
-.blue50 {
-  background-color: #5699BF88;
-}
-
-.lightblue50 {
-  background-color: #35B8F288;
-}
-
-.green50 {
-  background-color: #56BFA188;
-}
-
-.orange50 {
-  background-color: #F27B3588;
-}
-
-.pink50 {
-  background-color: #F2A0A088;
-}
-
-/* Text */
-
 .whitetext {
   color: #F2E7DC;
 }
@@ -334,6 +252,64 @@ body {
 
 .whiteshadow {
   text-shadow: #F2E7DC 0 .125rem;
+}
+
+/* Background Colors */
+
+.white {
+  background-color: #F2E7DC;
+}
+
+.black {
+  background-color: #012326;
+}
+
+.blue {
+  background-color: #5699BF;
+}
+
+.lightblue {
+  background-color: #35B8F2;
+}
+
+.green {
+  background-color: #56BFA1;
+}
+
+.orange {
+  background-color: #F27B35;
+}
+
+.pink {
+  background-color: #F2A0A0;
+}
+
+.white50 {
+  background-color: #F2E7DC88;
+}
+
+.black50 {
+  background-color: #01232688;
+}
+
+.blue50 {
+  background-color: #5699BF88;
+}
+
+.lightblue50 {
+  background-color: #35B8F288;
+}
+
+.green50 {
+  background-color: #56BFA188;
+}
+
+.orange50 {
+  background-color: #F27B3588;
+}
+
+.pink50 {
+  background-color: #F2A0A088;
 }
 
 /* Transformations */
