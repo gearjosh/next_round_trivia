@@ -275,7 +275,7 @@ video {
 .listpencil {
   list-style-image: url("img/lilpencil.png");
   padding-left: 6rem;
-  line-height: 150%;
+  line-height: 175%;
 }
 
 /* Background Colors */
