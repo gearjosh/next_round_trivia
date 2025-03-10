@@ -220,6 +220,10 @@ body {
   text-align: right;
 }
 
+.bottomtext {
+  vertical-align: text-bottom;
+}
+
 .titleshadow {
   text-shadow: #5699BF 0 .85rem,
     #56BFA1 0 1.7rem;
@@ -348,7 +352,7 @@ body {
 
 .tallbox {
   width: 30vw;
-  height: 25rem;
+  min-height: 25rem;
   border-radius: 1rem;
 }
 
@@ -413,6 +417,12 @@ body {
   background-image: url("img/sunset_group.png");
   background-size: cover;
   background-position: bottom;
+}
+
+.img8 {
+  background-image: url("img/woman_at_table.png");
+  background-size: cover;
+  background-position: top;
 }
 
 /* Fonts */
