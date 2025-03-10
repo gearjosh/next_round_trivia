@@ -272,6 +272,12 @@ video {
   text-shadow: #F2E7DC 0 .125rem;
 }
 
+.listpencil {
+  list-style-image: url("img/lilpencil.png");
+  padding-left: 6rem;
+  line-height: 150%;
+}
+
 /* Background Colors */
 
 .white {
@@ -447,7 +453,7 @@ video {
 }
 
 .img10 {
-  background-image: url("img/sean_on_mic.png");
+  background-image: url("img/host_with_card.png");
   background-size: cover;
   background-position: center;
 }
