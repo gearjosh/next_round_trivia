@@ -10,15 +10,14 @@ $(".headeritem").click(function () {
   })
 
   $("#" + toShow).show();
+  window.scrollTop(0);
+  // $("#" + toShow).scrollTop(0)
 })
 
 // Initial Page Load
 const currentURL = window.location.href;
-// const page = currentURL.split("#")[-1] || ""
-if (currentURL.includes("hosts")) {
+const page = currentURL.split("#")[1] || null;
+if (page) {
   $("#home").hide();
-  $("#hosts").show();
-} else {
-  $("#hosts").hide();
-  $("#home").show();
+  $("#" + page).show();
 }
