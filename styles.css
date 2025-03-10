@@ -12,6 +12,12 @@ body {
   color: #012326;
 }
 
+video {
+  margin-bottom: -3px;
+  object-fit: cover;
+  height: 50rem;
+}
+
 /* Flex */
 
 .flexrow {
@@ -436,6 +442,12 @@ body {
 
 .img9 {
   background-image: url("img/bar_interior.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img10 {
+  background-image: url("img/sean_on_mic.png");
   background-size: cover;
   background-position: center;
 }
