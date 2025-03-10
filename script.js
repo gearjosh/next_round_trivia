@@ -13,7 +13,8 @@ $(".headeritem").click(function () {
 })
 
 // Initial Page Load
-let currentURL = window.location.href;
+const currentURL = window.location.href;
+// const page = currentURL.split("#")[-1] || ""
 if (currentURL.includes("hosts")) {
   $("#home").hide();
   $("#hosts").show();

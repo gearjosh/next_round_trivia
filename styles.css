@@ -338,6 +338,7 @@ body {
   color: #F2E7DC;
   align-self: center;
   font-size: larger;
+  text-decoration: none;
 }
 
 .headeritem:hover {
