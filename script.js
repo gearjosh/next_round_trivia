@@ -9,24 +9,31 @@ $(".headeritem, #contactUs").click(function () {
     }
   });
   $("#" + toShow).show();
-  $(window).scrollTop($("#header").offset({ 
-    top: 0,
-    behavior: instant,
-  }));
+  $(window).scrollTop(
+    $("#header").offset({
+      top: 0,
+      behavior: instant,
+    })
+  );
 });
 
 $(".sublink").click(function () {
   $("#home").hide();
   $("#subscriptions").show();
-  $(window).scrollTop($("#header").offset({ 
-    top: 0,
-    behavior: instant,
-  }));
+  $(window).scrollTop(
+    $("#header").offset({
+      top: 0,
+      behavior: instant,
+    })
+  );
 });
-
 
 $("#subscribe").click(function () {
   window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+});
+
+$("#contactForm").submit(function () {
+  $(this).trigger("reset");
 });
 
 // Initial Page Load
