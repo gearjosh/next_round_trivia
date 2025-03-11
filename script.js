@@ -1,5 +1,5 @@
 // Event Listeners
-$(".headeritem").click(function () {
+$(".headeritem, #contactUs").click(function () {
   const toShow = $(this).attr("href").slice(1) || "home";
 
   $(".headeritem").each(function () {

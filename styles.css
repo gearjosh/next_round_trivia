@@ -359,7 +359,6 @@ video {
 
 .headeritem:hover {
   color: #71C8FB;
-  text-shadow: 
 }
 
 .curvedbox {
@@ -391,6 +390,11 @@ video {
 .bigbutton:focus {
   transform: translateY(0.75rem);
   box-shadow: none;
+}
+
+.contact a {
+  color: #35B8F2;
+  text-decoration: none;
 }
 
 /* Background Images */
