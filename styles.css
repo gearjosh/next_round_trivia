@@ -18,6 +18,10 @@ video {
   height: 50rem;
 }
 
+textarea {
+  resize: vertical;
+}
+
 /* Flex */
 
 .flexrow {
@@ -84,6 +88,10 @@ video {
   margin: 0 auto;
 }
 
+.marginbottomlil {
+  margin-bottom: .5rem;
+}
+
 .padded {
   padding: 1rem;
 }
@@ -130,6 +138,14 @@ video {
 
 .width10 {
   width: 10vw;
+}
+
+.width30 {
+  width: 30vw;
+}
+
+.width40 {
+  width: 40vw;
 }
 
 .widthhalf {
@@ -377,6 +393,27 @@ video {
   cursor: pointer;
 }
 
+.button {
+  border: none;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  width: 15vw;
+  box-shadow: 0 .4rem #01232688;
+  font-family: "Moon Regular";
+  display: block;
+}
+
+.button:hover {
+  text-shadow: #F2E7DC 0 .125rem;
+}
+
+.button:active,
+.button:focus {
+  transform: translateY(0.4rem);
+  box-shadow: none;
+}
+
 .bigbutton {
   box-shadow: 0 .75rem #01232688;
   cursor: pointer;
@@ -395,6 +432,14 @@ video {
 .contact a {
   color: #35B8F2;
   text-decoration: none;
+}
+
+.textinput {
+  padding: .5rem;
+  border-radius: .5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  border: none;
 }
 
 /* Background Images */
@@ -513,3 +558,6 @@ video {
     local("AlfaSlabOne-Regular"),
     url("fonts/AlfaSlabOne-Regular.ttf");
 }
+
+/* Media Queries */
+

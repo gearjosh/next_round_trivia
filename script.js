@@ -9,13 +9,19 @@ $(".headeritem, #contactUs").click(function () {
     }
   });
   $("#" + toShow).show();
-  $(window).scrollTop($("#header").offset({ top: 0 }));
+  $(window).scrollTop($("#header").offset({ 
+    top: 0,
+    behavior: instant,
+  }));
 });
 
 $(".sublink").click(function () {
   $("#home").hide();
   $("#subscriptions").show();
-  $(window).scrollTop($("#header").offset({ top: 0 }));
+  $(window).scrollTop($("#header").offset({ 
+    top: 0,
+    behavior: instant,
+  }));
 });
 
 $("#subscribe").click(function () {
@@ -26,6 +32,11 @@ $("#subscribe").click(function () {
 const currentURL = window.location.href;
 const page = currentURL.split("#")[1] || null;
 if (page) {
-  $("#home").hide();
+  $(".headeritem").each(function () {
+    const toHide = $(this).attr("href").slice(1) || "home";
+    if (toHide != page) {
+      $("#" + toHide).hide();
+    }
+  });
   $("#" + page).show();
 }
