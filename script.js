@@ -32,7 +32,8 @@ $("#subscribe").click(function () {
   window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
 });
 
-$("#contactForm").submit(function () {
+$("#contactForm").submit(function (e) {
+  e.preventDefault();
   $(this).trigger("reset");
 });
 
