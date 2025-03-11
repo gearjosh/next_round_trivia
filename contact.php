@@ -8,4 +8,6 @@ $headers = array(
 );
 $subject = wordwrap($subject,70);
 
-mail("otherjoshgearheart+test@gmail.com", $subject, $body, $headers);
+if (mail("otherjoshgearheart+test@gmail.com", $subject, $body, $headers)) {
+  echo("sent an email");
+}
