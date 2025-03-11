@@ -504,17 +504,17 @@
           <div class="flexrow flexbetween">
             <div class="flexcol">
               <label class="h4text marginbottomlil" for="subject">Subject</label>
-              <input id="subject" class="textinput width40" name="subject" placeholder="Email Subject" type="text">
+              <input id="subject" class="textinput width40" name="subject" placeholder="Email Subject" type="text" required>
             </div>
 
             <div class="flexcol">
               <label class="h4text marginbottomlil" for="senderEmail">Sender's Email Address</label>
-              <input id="senderEmail" class="textinput width40" name="senderEmail" placeholder="Your Email Address" type="text">
+              <input id="senderEmail" class="textinput width40" name="senderEmail" placeholder="Your Email Address" type="email" required>
             </div>
           </div>
 
           <label class="h4text margintop marginbottomlil" for="emailBody">Message</label>
-          <textarea name="emailBody" id="emailBody" class="textinput height20 marginbottom" placeholder="Your message to Next Round Trivia"></textarea>
+          <textarea name="emailBody" id="emailBody" class="textinput height20 marginbottom" placeholder="Your message to Next Round Trivia" required></textarea>
         </div>
 
         <button class="button lightblue margincenter" type="submit">Send Message</button>
