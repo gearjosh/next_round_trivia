@@ -5,14 +5,22 @@ $(".headeritem").click(function () {
   $(".headeritem").each(function () {
     const toHide = $(this).attr("href").slice(1) || "home";
     if (toHide != toShow) {
-      $("#" + toHide).hide()
+      $("#" + toHide).hide();
     }
-  })
-
+  });
   $("#" + toShow).show();
-  window.scrollTop(0);
-  // $("#" + toShow).scrollTop(0)
-})
+  $(window).scrollTop($("#header").offset({ top: 0 }));
+});
+
+$(".sublink").click(function () {
+  $("#home").hide();
+  $("#subscriptions").show();
+  $(window).scrollTop($("#header").offset({ top: 0 }));
+});
+
+$("#subscribe").click(function () {
+  window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+});
 
 // Initial Page Load
 const currentURL = window.location.href;

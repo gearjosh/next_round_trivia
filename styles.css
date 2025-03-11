@@ -234,10 +234,6 @@ video {
   text-align: right;
 }
 
-.bottomtext {
-  vertical-align: text-bottom;
-}
-
 .titleshadow {
   text-shadow: #5699BF 0 .85rem,
     #56BFA1 0 1.7rem;
@@ -363,6 +359,7 @@ video {
 
 .headeritem:hover {
   color: #71C8FB;
+  text-shadow: 
 }
 
 .curvedbox {
@@ -375,6 +372,25 @@ video {
   width: 30vw;
   min-height: 25rem;
   border-radius: 1rem;
+}
+
+.sublink {
+  cursor: pointer;
+}
+
+.bigbutton {
+  box-shadow: 0 .75rem #01232688;
+  cursor: pointer;
+}
+
+.bigbutton:hover {
+  text-shadow: #012326 0 .125rem;
+}
+
+.bigbutton:active,
+.bigbutton:focus {
+  transform: translateY(0.75rem);
+  box-shadow: none;
 }
 
 /* Background Images */
@@ -456,6 +472,12 @@ video {
   background-image: url("img/host_with_card.png");
   background-size: cover;
   background-position: center;
+}
+
+.img11 {
+  background-image: url("img/trivia_taproom.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 /* Fonts */
