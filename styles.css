@@ -22,6 +22,14 @@ textarea {
   resize: vertical;
 }
 
+a {
+  color: #5699BF;
+}
+
+a:visited {
+  color: #56BFA1;
+}
+
 /* Flex */
 
 .flexrow {
