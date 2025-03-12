@@ -32,9 +32,9 @@ $("#subscribe").click(function () {
   window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
 });
 
-$("#contactForm").submit(function () {
-  $(this).trigger("reset");
-});
+// $("#contactForm").submit(function () {
+//   $(this).trigger("reset");
+// });
 
 // Initial Page Load
 const currentURL = window.location.href;
