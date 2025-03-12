@@ -389,6 +389,10 @@ a:visited {
   color: #71C8FB;
 }
 
+.headeritem:visited {
+  color: #F2E7DC;
+}
+
 .curvedbox {
   width: 15vw;
   min-height: 15vw;
