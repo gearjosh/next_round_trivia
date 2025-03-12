@@ -535,6 +535,12 @@ textarea {
   background-position: center;
 }
 
+.img13 {
+  background-image: url("img/thanks_flower.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* Fonts */
 
 @font-face {
