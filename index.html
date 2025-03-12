@@ -484,20 +484,20 @@
     </div>
 
     <div class="flexcol flexbetween padded">
-      <h4 class="h3text pinktext blueshadow slab margintop">Who is the man behind the trivia?</h4>
+      <h4 class="h3text orangetext bold margintop">Who is the man behind the trivia?</h4>
       <p class="h4text marginbottom marginleft">His name is Sean, and he is a multifaceted fellow. He's a Theatre Master. He's a father. He has a beard. He likes to wear hats and play board games. Sometimes he has a beer or two.</p>
 
-      <h4 class="h3text pinktext blueshadow slab margintop">But does he know all the words to <i>It's Not Unusual</i> by Tom Jones?</h4>
+      <h4 class="h3text orangetext bold margintop">But does he know all the words to <i>It's Not Unusual</i> by Tom Jones?</h4>
       <p class="h4text marginbottom marginleft">You bet your boots he does!</p>
 
-      <h4 class="h3text pinktext blueshadow slab margintop">Why should I give him my money?</h4>
-      <p class="h4text marginbottom marginleft">He will use the money to feed his family who need food to live.</p>
+      <h4 class="h3text orangetext bold margintop">Why should I give him my money?</h4>
+      <p class="h4text marginbottom marginleft">He will use the money to feed his beautiful family who needs food to live.</p>
 
-      <h4 class="h3text pinktext blueshadow slab margintop">Will he spend my hard-earned money on cocaine or methamphetamine?</h4>
+      <h4 class="h3text orangetext bold margintop">Will he spend my hard-earned money on cocaine or methamphetamine?</h4>
       <p class="h4text marginbottom marginleft">Absolutely not! Sean is not into that kind of thing. He's more into competitive card games. They are an even more effective way to spend your whole paycheck.</p>
 
-      <h4 class="h3text pinktext blueshadow slab margintop">Do any birds make milk to feed their babies like mammals do?</h4>
-      <p class="h4text marginbottom marginleft">Believe it or not, pigeons make milk out of special glands in their throats specifically to feed their young.</p>
+      <h4 class="h3text orangetext bold margintop">Do any birds make milk to feed their babies like mammals do?</h4>
+      <p class="h4text marginbottom marginleft">Yes! Pigeons make milk out of special glands in their throats specifically to feed their young.</p>
     </div>
 
     <div class="blue height5 doublepadded flexrow flexaround">
@@ -525,20 +525,32 @@
         <input type="hidden" name="_next" value="https://gearjosh.github.io/next_round_trivia/thanks.html">
         
         <div class="flexcol">
-          <div class="flexrow flexbetween">
+          <div class="flexrow flexbetween marginbottom">
+            <div class="flexcol">
+              <label class="h4text marginbottomlil" for="firstName">First Name</label>
+              <input id="firstName" class="textinput width45" name="First Name" placeholder="Your First Name" type="text" required>
+            </div>
+
+            <div class="flexcol">
+              <label class="h4text marginbottomlil" for="lastName">Last Name</label>
+              <input id="lastName" class="textinput width45" name="Last Name" placeholder="Your Last Name or Family Name" type="text" required>
+            </div>
+          </div>
+
+          <div class="flexrow flexbetween marginbottom">
             <div class="flexcol">
               <label class="h4text marginbottomlil" for="subject">Subject</label>
-              <input id="subject" class="textinput width40" name="subject" placeholder="Email Subject" type="text" required>
+              <input id="subject" class="textinput width45" name="Subject" placeholder="Email Subject" type="text" required>
             </div>
 
             <div class="flexcol">
               <label class="h4text marginbottomlil" for="senderEmail">Sender's Email Address</label>
-              <input id="senderEmail" class="textinput width40" name="senderEmail" placeholder="Your Email Address" type="email" required>
+              <input id="senderEmail" class="textinput width45" name="Sender's Email" placeholder="Your Email Address" type="email" required>
             </div>
           </div>
 
-          <label class="h4text margintop marginbottomlil" for="emailBody">Message</label>
-          <textarea name="emailBody" id="emailBody" class="textinput height20 marginbottom" placeholder="Your message to Next Round Trivia" required></textarea>
+          <label class="h4text marginbottomlil" for="emailBody">Message</label>
+          <textarea name="Message" id="emailBody" class="textinput height20 marginbottom" placeholder="Your message to Next Round Trivia" required></textarea>
         </div>
 
         <button class="button lightblue margincenter" type="submit">Send Message</button>
