@@ -581,6 +581,20 @@ a:visited {
 }
 
 @font-face {
+  font-family: "Moon Caps Light";
+  src:
+    local("Moon Light"),
+    url("fonts/Moon\ Light.otf");
+}
+
+@font-face {
+  font-family: "Moon Caps Bold";
+  src:
+    local("Moon Bold"),
+    url("fonts/Moon\ Bold.otf");
+}
+
+@font-face {
   font-family: "Alfa Slab";
   src:
     local("AlfaSlabOne-Regular"),
