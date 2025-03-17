@@ -472,7 +472,7 @@ a:visited {
   padding: 1rem;
   border-radius: .5rem;
   font-size: 1.2rem;
-  width: 15vw;
+  width: 30vw;
   box-shadow: 0 .4rem #01232688;
   font-family: "Moon Regular";
   display: block;
@@ -686,10 +686,6 @@ a:visited {
     width: 25vw;
     min-height: 17vw;
     border-radius: 1rem 5rem;
-  }
-
-  .button {
-    width: 30vw;
   }
 
   #footer .height40 {
