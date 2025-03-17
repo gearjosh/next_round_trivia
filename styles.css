@@ -189,6 +189,10 @@ a:visited {
   bottom: 0;
 }
 
+.toplayer {
+  z-index: 9;
+}
+
 .hide {
   display: none;
 }
@@ -666,8 +670,8 @@ a:visited {
 
 @media (max-width: 1250px) {
   video {
-      margin-bottom: -5px;
-      height: 40rem;
+    margin-bottom: -10px;
+    height: 40rem;
     }
   
   .desktop {
@@ -686,5 +690,9 @@ a:visited {
 
   .button {
     width: 30vw;
+  }
+
+  #footer .height40 {
+    height: 30rem;
   }
 }
