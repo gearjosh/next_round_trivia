@@ -7,5 +7,5 @@ Built with HTML, CSS, PHP and vanilla JavaScript. No libraries or frameworks wer
 
 - [x] Add FAQ
 - [x] Add Contact Us form
-- [ ] Add captcha to contact form
+- [x] Add captcha to contact form
 - [ ] Optimize for Mobile

@@ -1,5 +1,5 @@
 // Event Listeners
-$(".headeritem, #contactUs").click(function () {
+$(".headeritem, .headeritemmobile, #contactUs").click(function () {
   const toShow = $(this).attr("href").slice(1) || "home";
 
   $(".headeritem").each(function () {
@@ -9,8 +9,9 @@ $(".headeritem, #contactUs").click(function () {
     }
   });
   $("#" + toShow).show();
+  $("#mobileLinks").hide();
   $(window).scrollTop(
-    $("#header").offset({
+    $("body").offset({
       top: 0,
       behavior: instant,
     })
@@ -32,9 +33,14 @@ $("#subscribe").click(function () {
   window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
 });
 
-// $("#contactForm").submit(function () {
-//   $(this).trigger("reset");
-// });
+$("#hamburger").click(function () {
+  const links = $("#mobileLinks");
+  if (links.css("display") == "block") {
+    links.css("display", "none");
+  } else {
+    links.css("display", "block")
+  }
+})
 
 // Initial Page Load
 const currentURL = window.location.href;

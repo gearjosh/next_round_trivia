@@ -10,6 +10,7 @@ body {
   font-family: "Moon Regular", sans-serif;
   background-color: #F2E7DC;
   color: #012326;
+  position: relative;
 }
 
 video {
@@ -189,6 +190,10 @@ a:visited {
 }
 
 .hide {
+  display: none;
+}
+
+.mobile {
   display: none;
 }
 
@@ -403,10 +408,41 @@ a:visited {
   text-align: center;
 }
 
+.headermobile {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.headeritemmobile {
+  color: #F2E7DC;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: .5rem;
+  margin-left: 1rem;
+  display: block;
+}
+
+.headermobile #mobileLinks {
+  display: none;
+}
+
+.headermobile #hamburger {
+  display: block;
+  position: absolute;
+  font-size: 4.5rem;
+  right: 1rem;
+  top: 0;
+  color: #F2E7DC;
+}
+
+.headeritemmobile:hover,
 .headeritem:hover {
   color: #71C8FB;
 }
 
+.headeritemmobile:visited,
 .headeritem:visited {
   color: #F2E7DC;
 }
@@ -628,3 +664,27 @@ a:visited {
 
 /* Media Queries */
 
+@media (max-width: 1250px) {
+  video {
+      margin-bottom: -5px;
+      height: 40rem;
+    }
+  
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .curvedbox {
+    width: 25vw;
+    min-height: 17vw;
+    border-radius: 1rem 5rem;
+  }
+
+  .button {
+    width: 30vw;
+  }
+}

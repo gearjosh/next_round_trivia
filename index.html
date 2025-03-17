@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link href="img/favicon.ico" rel="shortcut icon" type="img/jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="reset.css" rel="stylesheet" type="text/css" media="all">
   <link href="styles.css" rel="stylesheet" type="text/css" media="all">
   <title>Next Round Trivia</title>
@@ -12,9 +13,10 @@
 <body>
 
   <!-- Header -->
-  <section class="header black flexrow flexbetween padded">
+  <section class="header black flexrow flexbetween padded desktop">
     <a href="#" class="headeritem"><img class="height5" src="./img/nrt_logo.png"
-        alt="Next Round Trivia logo: piece of paper over crossed pencils"></a>
+        alt="Next Round Trivia logo: a piece of paper over crossed pencils">
+    </a>
     <div class="flexcol flexend">
       <a href="#subscriptions" class="headeritem">Subscriptions</a>
     </div>
@@ -33,6 +35,23 @@
     <div class="flexcol flexend">
       <a href="#contact" class="headeritem marginright">Contact</a>
     </div>
+  </section>
+
+  <section class="headermobile black mobile">
+    <a href="#" class="headeritem"><img class="height5" src="./img/nrt_logo.png"
+      alt="Next Round Trivia logo: a piece of paper over crossed pencils">
+    </a>
+    <div id="mobileLinks">
+      <a href="#subscriptions" class="headeritemmobile">Subscriptions</a>
+      <a href="#hosts" class="headeritemmobile">For Hosts</a>
+      <a href="#venues" class="headeritemmobile">For Venues</a>
+      <a href="#game" class="headeritemmobile">The Game</a>
+      <a href="#faq" class="headeritemmobile">FAQ</a>
+      <a href="#contact" class="headeritemmobile marginbottomlil">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="black" id="hamburger"">
+      <i class="fa fa-bars"></i>
+    </a>
   </section>
 
   <!-- Home -->
@@ -56,7 +75,8 @@
     <div class="flexrow whitetext blackshadow bold">
       <div class="flexcol flexaligncenter widththird pink">
         <div class="padded">
-          <p class="h1text centertext marginbottom">We <span class="capsbold">Write</span> It</p>
+          <p class="h1text centertext marginbottom desktop">We <span class="capsbold">Write</span> It</p>
+          <p class="h1text centertext marginbottom mobile">We <span class="capsbold">Write</span><br/>It</p>
           <div class="bgimg img2 tallbox marginbottom">
           </div>
         </div>
@@ -64,7 +84,8 @@
 
       <div class="flexcol flexaligncenter widththird lightblue50">
         <div class="padded">
-          <p class="h1text centertext marginbottom">You <span class="capsbold">Host</span> It</p>
+          <p class="h1text centertext marginbottom desktop">You <span class="capsbold">Host</span> It</p>
+          <p class="h1text centertext marginbottom mobile">You <span class="capsbold">Host</span><br/>It</p>
           <div class="bgimg img3 tallbox marginbottom">
           </div>
         </div>
@@ -72,7 +93,8 @@
 
       <div class="flexcol flexaligncenter widththird orange50">
         <div class="padded">
-          <p class="h1text centertext marginbottom">They <span class="capsbold">Play</span> It</p>
+          <p class="h1text centertext marginbottom desktop">They <span class="capsbold">Play</span> It</p>
+          <p class="h1text centertext marginbottom mobile">They <span class="capsbold">Play</span><br/>It</p>
           <div class="bgimg img4 tallbox marginbottom">
           </div>
         </div>
@@ -114,28 +136,52 @@
 
     <div class="padded flexcol flexaround">
       <h4 class="slab lightbluetext titletext titleshadowalt tilt"><span class="">Our trivia<br />subscriptions
-          include:</span></h4>
-      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom">
-        <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+          include:</span>
+      </h4>
+
+      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom desktop">
+        <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
           <p>Questions</p>
         </div>
-        <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+        <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
           <p>Answers</p>
         </div>
-        <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+        <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
           <p>Optional slide show</p>
         </div>
-        <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+        <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
           <p>Answer sheets<br />for the players</p>
         </div>
-        <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+        <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
           <p>Score sheets<br />for the host</p>
         </div>
       </div>
 
+      <div class="mobile">
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Questions</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Answers</p>
+          </div>
+        </div>
+
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Optional slide show</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Answer sheets<br />for the players</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Score sheets<br />for the host</p>
+          </div>
+        </div>
+      </div>
+
       <div class="flexrow flexcenter">
-        <p
-          class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
+        <p class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
           Our tried and true trivia format will entertain your patrons and put money in your pocket!</p>
       </div>
 
@@ -155,7 +201,8 @@
           </h3>
           <p class="height10"><span class="slab h3text pinktext blackshadow">$100<br />per month</span><br />with auto
             renewal.</p>
-          <p class="mont bottom height5">Saves you <span class="slab">15%</span>!<br />Same great trivia at a savings!</p>
+          <p class="mont bottom height5">Saves you <span class="slab">15%</span>!<br />Same great trivia at a savings!
+          </p>
         </div>
 
         <div class="flexcol flexbetween tallbox sublink padded blue">
@@ -164,7 +211,8 @@
           </h3>
           <p class="height10"><span class="slab h3text pinktext blackshadow">$1000<br />per year</span><br />with auto
             renewal.</p>
-          <p class="mont bottom height5">Saves you <span class="slab">29%</span>!<br />Same great trivia at a savings!</p>
+          <p class="mont bottom height5">Saves you <span class="slab">29%</span>!<br />Same great trivia at a savings!
+          </p>
         </div>
       </div>
 
@@ -199,7 +247,7 @@
 
     <div class="padded">
       <h2 class="h1text slab bluetext blackshadow centertext marginbottom">Trivia Subscriptions Include</h2>
-      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom">
+      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom desktop">
         <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
           <p>Simple instructions for the host</p>
         </div>
@@ -220,9 +268,34 @@
         </div>
       </div>
 
+      <div class="mobile">
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Simple instructions for the host</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Questions</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Answers</p>
+          </div>
+        </div>
+          
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Optional slide show</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Answer sheets<br />for the players</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Score sheets<br />for the host</p>
+          </div>
+        </div>
+      </div>
+
       <div class="flexrow flexcenter">
-        <p
-          class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
+        <p class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
           Our tried and true trivia format will entertain your patrons and put money in your pocket!</p>
       </div>
     </div>
@@ -280,7 +353,7 @@
     </div>
 
 
-    <div class="flexrow">
+    <div class="flexrow desktop">
       <div class="widthhalf righttext lightblue padded">
         <div class="padded">
           <h2 class="h2text bold whitetext blackshadow marginbottom">Why Us?</h2>
@@ -298,6 +371,24 @@
       <div class="img8 widthhalf height40"></div>
     </div>
 
+    <div class="mobile">
+      <div class="img8 height40"></div>
+      <div class="lightblue padded">
+        <div class="padded">
+          <h2 class="h2text bold whitetext blackshadow marginbottom">Why Us?</h2>
+        </div>
+        <p class="h3text">
+          We have a proven track record of writing trivia that is engaging, unique, and brings people back week after
+          week.
+        </p>
+        <br />
+        <p class="h3text">
+          Let us do the heavy lifting when it comes to content so you can focus on booking more venues and growing your
+          brand.
+        </p>
+      </div>
+    </div>
+
     <div class="green height5 doublepadded flexrow flexaround">
       <img src="img/pencil_L.png" alt="A pencil pointing right">
       <img src="img/pencil_L.png" alt="A pencil pointing right">
@@ -309,7 +400,7 @@
 
     <div class="padded">
       <h2 class="h1text slab bluetext blackshadow centertext marginbottom">What You Get</h2>
-      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom">
+      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom desktop">
         <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
           <p>Questions</p>
         </div>
@@ -327,9 +418,31 @@
         </div>
       </div>
 
+      <div class="mobile">
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Questions</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Answers</p>
+          </div>
+        </div>
+      
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Optional slide show</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Answer sheets<br />for the players</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter whitetext bold padded">
+            <p>Score sheets<br />for the host</p>
+          </div>
+        </div>
+      </div>
+
       <div class="flexrow flexcenter">
-        <p
-          class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
+        <p class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
           Our tried and true trivia format will entertain your patrons and put money in your pocket!</p>
       </div>
     </div>
@@ -350,9 +463,28 @@
       <h1 class="titletext titleshadow tilt">Grow your business by<br />starting or improving your own trivia night</h1>
     </div>
 
-    <div class="flexrow">
+    <div class="flexrow desktop">
       <div class="img9 height40 widthhalf"></div>
       <div class="widthhalf lightblue padded h3text">
+        <h2 class="h2text bold whitetext blackshadow marginbottom">Let us save you time and money!</h2>
+        <p>
+          Why spend hours each week writing a great trivia round when you could spend that time optimizing your
+          business?
+        </p>
+        <br />
+        <p>
+          Our trivia rounds are designed to be user friendly so you can host them yourself or get one of your favorite
+          regulars to host it for you.
+        </p>
+        <br />
+        <p>Subscribing to our service instead of one of the hosted trivia services will save you hundreds of dollars
+          each month.</p>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="img9 height40"></div>
+      <div class="lightblue padded h3text">
         <h2 class="h2text bold whitetext blackshadow marginbottom">Let us save you time and money!</h2>
         <p>
           Why spend hours each week writing a great trivia round when you could spend that time optimizing your
@@ -380,7 +512,7 @@
 
     <div class="padded">
       <h2 class="h1text slab bluetext blackshadow centertext marginbottom">Trivia Subscriptions Include</h2>
-      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom">
+      <div class="flexrow flexaround flexaligncenter h4text centertext marginbottom desktop">
         <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
           <p>Simple instructions for the host</p>
         </div>
@@ -401,9 +533,34 @@
         </div>
       </div>
 
+      <div class="mobile">
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Simple instructions for the host</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Questions</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Answers</p>
+          </div>
+        </div>
+      
+        <div class="flexrow flexeven flexaligncenter h4text centertext marginbottom">
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Optional slide show</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Answer sheets<br />for the players</p>
+          </div>
+          <div class="mont curvedbox orange flexcol flexcenter h4text whitetext bold padded">
+            <p>Score sheets<br />for the host</p>
+          </div>
+        </div>
+      </div>
+
       <div class="flexrow flexcenter">
-        <p
-          class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
+        <p class="whitetext lightblue h2text centertext doublepadded rounded margintop marginbottom width60percent">
           Our tried and true trivia format will entertain your patrons and put money in your pocket!</p>
       </div>
     </div>
@@ -437,9 +594,32 @@
       <img src="img/pencil_R.png" alt="A pencil pointing left">
     </div>
 
-    <div class="flexrow">
+    <div class="flexrow desktop">
       <div class="img10 height50 widthhalf"></div>
       <div class="widthhalf lightblue padded h3text">
+        <h2 class="h2text bold whitetext blackshadow marginbottom centertext">
+          <span class="slab">4</span> Rounds of <span class="slab">10</span> questions<br />Each with digital display or
+          prints
+        </h2>
+        <ul class="listpencil">
+          <li>&nbsp;<span class="slab">1-2</span> General Knowledge Rounds</li>
+          <li>&nbsp;<span class="slab">1-2</span> Picture or Specialty Rounds</li>
+          <li>&nbsp;<span class="slab">1</span> Music Round</li>
+        </ul>
+        <br />
+        <br />
+        <h2 class="h2text bold whitetext blackshadow marginbottom centertext">Including printable assets:</h2>
+        <ul class="listpencil">
+          <li>&nbsp;Patrons Answer Sheets</li>
+          <li>&nbsp;Picture Round Printouts</li>
+          <li>&nbsp;Host Score Sheets</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="img10 height50"></div>
+      <div class="lightblue padded h3text">
         <h2 class="h2text bold whitetext blackshadow marginbottom centertext">
           <span class="slab">4</span> Rounds of <span class="slab">10</span> questions<br />Each with digital display or
           prints
