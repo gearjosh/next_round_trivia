@@ -397,6 +397,10 @@ a:visited {
   max-width: fit-content;
 }
 
+#game .tilt {
+  margin: 2.5rem 4rem 6rem;
+}
+
 /* Specific Elements */
 
 .header {
