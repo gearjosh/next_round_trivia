@@ -13,6 +13,7 @@ body {
   color: #012326;
   position: relative;
   width: 100vw;
+  overflow-x: hidden !important;
 }
 
 video {
