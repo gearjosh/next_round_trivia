@@ -700,9 +700,9 @@ a:visited {
 
 @media (width < 1000px) {
 
-  html {
+  /* html {
     font-size: 30%;
-  }
+  } */
 
   video {
     margin-bottom: -10px;
