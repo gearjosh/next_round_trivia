@@ -4,6 +4,7 @@
 
 html {
   scroll-padding-top: 5rem;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   color: #012326;
   position: relative;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 video {
