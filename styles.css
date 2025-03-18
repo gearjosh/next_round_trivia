@@ -4,6 +4,7 @@
 
 html {
   scroll-padding-top: 5rem;
+  width: 100vw;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 video {
