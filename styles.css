@@ -12,10 +12,7 @@ body {
   color: #012326;
   position: relative;
   width: 100vw;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
-  /* -webkit-appearance: none; */
 }
 
 video {
@@ -682,6 +679,10 @@ a:visited {
 /* Media Queries */
 
 @media (max-width: 1250px) {
+  html {
+    font-size: 50%;
+  }
+  
   video {
     margin-bottom: -10px;
     height: 40rem;
