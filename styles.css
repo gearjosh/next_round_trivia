@@ -711,12 +711,12 @@ a:visited {
 
   .titleshadow {
     text-shadow: #5699BF 0 .5rem,
-      #56BFA1 0 1.7rem;
+      #56BFA1 0 1rem;
   }
 
   .titleshadowalt {
     text-shadow: #F2A0A0 0 .5rem,
-      #56BFA1 0 1.7rem;
+      #56BFA1 0 1rem;
   }
 
   .desktop {
