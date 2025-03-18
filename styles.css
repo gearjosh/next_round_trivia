@@ -742,14 +742,6 @@ a:visited {
     display: flex;
   }
 
-  .mobileflex img.size70 {
-    display: inline;
-  }
-
-  .mobileflex img.size40 {
-    display: none;
-  }
-
   .curvedbox {
     width: 25vw;
     min-height: 17vw;
@@ -773,15 +765,12 @@ a:visited {
   }
 
   .listpencil {
-    list-style-image: url("img/lilpencil40.png");
+    list-style-image: none;
+    list-style-type: disc;
   }
 
   .mobileflex img.size70 {
     display: none;
-  }
-
-  .mobileflex img.size40 {
-    display: inline;
   }
 
   .tallbox p,
@@ -796,14 +785,11 @@ a:visited {
   }
 
   .listpencil {
-    list-style-image: url("img/lilpencil30.png");
+    list-style-image: none;
+    list-style-type: disc;
   }
 
   .mobileflex img.size70 {
-    display: none;
-  }
-
-  .mobileflex img.size40 {
     display: none;
   }
 
