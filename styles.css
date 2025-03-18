@@ -709,6 +709,16 @@ a:visited {
     height: 40rem;
   }
 
+  .titleshadow {
+    text-shadow: #5699BF 0 .5rem,
+      #56BFA1 0 1.7rem;
+  }
+
+  .titleshadowalt {
+    text-shadow: #F2A0A0 0 .5rem,
+      #56BFA1 0 1.7rem;
+  }
+
   .desktop {
     display: none;
   }
