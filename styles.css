@@ -679,10 +679,7 @@ a:visited {
 
 /* Media Queries */
 
-@media (max-width: 1250px) {
-  html {
-    font-size: 40%;
-  }
+@media (1000px <= width <= 1250px) {
   
   video {
     margin-bottom: -10px;
@@ -706,4 +703,35 @@ a:visited {
   #footer .height40 {
     height: 30rem;
   }
+}
+
+@media (width < 1000px) {
+
+  html {
+    font-size: 30%;
+  }
+
+  video {
+    margin-bottom: -10px;
+    height: 40rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .curvedbox {
+    width: 25vw;
+    min-height: 17vw;
+    border-radius: 1rem 5rem;
+  }
+
+  #footer .height40 {
+    height: 30rem;
+  }
+
 }
