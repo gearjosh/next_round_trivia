@@ -146,6 +146,10 @@ a:visited {
   height: 40rem;
 }
 
+.height40min {
+  min-height: 40rem;
+}
+
 .height50 {
   height: 50rem;
 }
@@ -688,21 +692,13 @@ a:visited {
   .desktop {
     display: none;
   }
-
-  .mobileblock {
-    display: none;
-  }
-
+  
   .smallblock {
     display: block;
   }
-
+  
   .smallflex {
     display: flex;
-  }
-
-  .mobileflex {
-    display: none;
   }
 
   .curvedbox {
@@ -723,8 +719,7 @@ a:visited {
   }
 
   .listpencil {
-    list-style-image: none;
-    list-style-type: disc;
+    list-style-image: url("img/lilpencil70.png");
   }
 
   .desktop {
@@ -745,6 +740,18 @@ a:visited {
 
   .mobileflex {
     display: flex;
+  }
+
+  .mobileflex img.size70 {
+    display: inline;
+  }
+
+  .mobileflex img.size40 {
+    display: none;
+  }
+
+  .mobileflex img.size30 {
+    display: none;
   }
 
   .curvedbox {
@@ -769,6 +776,22 @@ a:visited {
     font-size: 40%;
   }
 
+  .listpencil {
+    list-style-image: url("img/lilpencil40.png");
+  }
+
+  .mobileflex img.size70 {
+    display: none;
+  }
+
+  .mobileflex img.size40 {
+    display: inline;
+  }
+
+  .mobileflex img.size30 {
+    display: none;
+  }
+
   .tallbox p,
   .curvedbox p {
     font-size: 1.5rem;
@@ -778,6 +801,22 @@ a:visited {
 @media (width < 330px) {
   html {
     font-size: 30%;
+  }
+
+  .listpencil {
+    list-style-image: url("img/lilpencil30.png");
+  }
+
+  .mobileflex img.size70 {
+    display: none;
+  }
+
+  .mobileflex img.size40 {
+    display: none;
+  }
+
+  .mobileflex img.size30 {
+    display: inline;
   }
 
   .tallbox p,
