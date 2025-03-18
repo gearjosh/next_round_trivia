@@ -750,10 +750,6 @@ a:visited {
     display: none;
   }
 
-  .mobileflex img.size30 {
-    display: none;
-  }
-
   .curvedbox {
     width: 25vw;
     min-height: 17vw;
@@ -788,10 +784,6 @@ a:visited {
     display: inline;
   }
 
-  .mobileflex img.size30 {
-    display: none;
-  }
-
   .tallbox p,
   .curvedbox p {
     font-size: 1.5rem;
@@ -813,10 +805,6 @@ a:visited {
 
   .mobileflex img.size40 {
     display: none;
-  }
-
-  .mobileflex img.size30 {
-    display: inline;
   }
 
   .tallbox p,
