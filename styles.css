@@ -679,19 +679,11 @@ a:visited {
 
 /* Media Queries */
 
-@media (1000px <= width <= 1250px) {
-  
+@media (1000px <=width <=1250px) {
+
   video {
     margin-bottom: -10px;
     height: 40rem;
-    }
-  
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
   }
 
   .curvedbox {
