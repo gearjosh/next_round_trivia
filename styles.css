@@ -4,7 +4,7 @@
 
 html {
   scroll-padding-top: 5rem;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body {
