@@ -4,7 +4,6 @@
 
 html {
   scroll-padding-top: 5rem;
-  overflow-x: hidden !important;
 }
 
 body {
@@ -13,7 +12,6 @@ body {
   color: #012326;
   position: relative;
   width: 100vw;
-  overflow-x: hidden !important;
 }
 
 video {
@@ -204,7 +202,11 @@ a:visited {
   display: none;
 }
 
-.mobile {
+.mobileblock {
+  display: none;
+}
+
+.mobileflex {
   display: none;
 }
 
@@ -466,13 +468,14 @@ a:visited {
   width: 15vw;
   min-height: 15vw;
   border-radius: 1rem 5rem;
+  border: 3px solid #F2A0A0
 }
 
 .tallbox {
   width: 30vw;
   min-height: 25rem;
-  max-height: max-content;
   border-radius: 1rem;
+  flex-wrap: nowrap;
 }
 
 .sublink {
@@ -680,17 +683,32 @@ a:visited {
 
 /* Media Queries */
 
-@media (1000px <=width <=1250px) {
+@media (900px <= width <= 1250px) {
 
-  video {
-    margin-bottom: -10px;
-    height: 40rem;
+  .desktop {
+    display: none;
+  }
+
+  .mobileblock {
+    display: none;
+  }
+
+  .smallblock {
+    display: block;
+  }
+
+  .smallflex {
+    display: flex;
+  }
+
+  .mobileflex {
+    display: none;
   }
 
   .curvedbox {
-    width: 25vw;
+    width: 17vw;
     min-height: 17vw;
-    border-radius: 1rem 5rem;
+    border-radius: 1rem 4rem;
   }
 
   #footer .height40 {
@@ -698,43 +716,76 @@ a:visited {
   }
 }
 
-@media (width < 1000px) {
+@media (width < 900px) {
 
-  /* html {
-    font-size: 30%;
-  } */
-
-  video {
-    margin-bottom: -10px;
-    height: 40rem;
+  html {
+    font-size: 70%;
   }
 
-  .titleshadow {
-    text-shadow: #5699BF 0 .5rem,
-      #56BFA1 0 1rem;
-  }
-
-  .titleshadowalt {
-    text-shadow: #F2A0A0 0 .5rem,
-      #56BFA1 0 1rem;
+  .listpencil {
+    list-style-image: none;
+    list-style-type: disc;
   }
 
   .desktop {
     display: none;
   }
 
-  .mobile {
+  .smallblock {
+    display: none;
+  }
+
+  .smallflex {
+    display: none;
+  }
+
+  .mobileblock {
     display: block;
+  }
+
+  .mobileflex {
+    display: flex;
   }
 
   .curvedbox {
     width: 25vw;
     min-height: 17vw;
-    border-radius: 1rem 5rem;
+    border-radius: 1rem 4rem;
+  }
+
+  .tallbox p,
+  .curvedbox p {
+    font-size: 2rem;
   }
 
   #footer .height40 {
     height: 30rem;
   }
 
+}
+
+@media (width < 600px) {
+  html {
+    font-size: 40%;
+  }
+
+  .tallbox p,
+  .curvedbox p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width < 330px) {
+  html {
+    font-size: 30%;
+  }
+
+  .tallbox p,
+  .curvedbox p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    max-width: 90vw;
+  }
 }
