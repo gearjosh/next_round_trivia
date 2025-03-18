@@ -471,7 +471,7 @@ a:visited {
 .tallbox {
   width: 30vw;
   min-height: 25rem;
-  max-height: fit-content;
+  max-height: max-content;
   border-radius: 1rem;
 }
 
