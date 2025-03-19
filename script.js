@@ -30,7 +30,7 @@ $(".sublink").click(function () {
 });
 
 $("#subscribe").click(function () {
-  window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+  window.open("https://nextroundtrivia.beehiiv.com/subscribe", "_blank");
 });
 
 $("#hamburger").click(function () {
