@@ -704,7 +704,8 @@ a:visited {
   .curvedbox {
     width: 17vw;
     min-height: 17vw;
-    border-radius: 1rem 4rem;
+    border-radius: 1rem 4.5rem;
+    font-size: 1.3rem;
   }
 
   #footer .height40 {
