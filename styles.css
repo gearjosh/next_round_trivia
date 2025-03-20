@@ -106,6 +106,10 @@ a:visited {
   margin-bottom: .5rem;
 }
 
+.marginbottombig {
+  margin-bottom: 2rem;
+}
+
 .padded {
   padding: 1rem;
 }

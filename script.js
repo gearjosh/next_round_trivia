@@ -34,7 +34,7 @@ $("#subscribe").click(function () {
 });
 
 $("#contactForm").submit(function () {
-  $("#contactform button").addClass("marginbottom")
+  $("#contactForm button").addClass("marginbottombig")
   $(".sending").show();
 });
 
