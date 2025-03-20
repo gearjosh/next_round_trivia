@@ -102,6 +102,10 @@ a:visited {
   margin: 0 auto;
 }
 
+.margincenterbottom {
+  margin: 0 auto 1rem;
+}
+
 .marginbottomlil {
   margin-bottom: .5rem;
 }
