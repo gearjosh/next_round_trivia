@@ -535,10 +535,6 @@ a:visited {
   border: none;
 }
 
-.sending {
-  display: none;
-}
-
 .sending::after {
   display: inline-block;
   animation: dotter steps(1, end) 2s infinite;
@@ -721,16 +717,16 @@ a:visited {
 
 /* Media Queries */
 
-@media (900px <= width <= 1250px) {
+@media (900px <=width <=1250px) {
 
   .desktop {
     display: none;
   }
-  
+
   .smallblock {
     display: block;
   }
-  
+
   .smallflex {
     display: flex;
   }

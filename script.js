@@ -34,17 +34,17 @@ $("#subscribe").click(function () {
 });
 
 $("#contactForm").submit(function () {
-  $(".sending").show()
-})
+  $(".sending").show();
+});
 
 $("#hamburger").click(function () {
   const links = $("#mobileLinks");
   if (links.css("display") == "block") {
     links.css("display", "none");
   } else {
-    links.css("display", "block")
+    links.css("display", "block");
   }
-})
+});
 
 // Initial Page Load
 const currentURL = window.location.href;
