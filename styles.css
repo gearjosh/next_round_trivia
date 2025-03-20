@@ -82,6 +82,10 @@ a:visited {
 
 /* Margins, Padding, and Box Formatting */
 
+.margincenter {
+  margin: 0 auto;
+}
+
 .marginright {
   margin-right: 1rem;
 }
@@ -96,14 +100,6 @@ a:visited {
 
 .marginbottom {
   margin-bottom: 1rem;
-}
-
-.margincenter {
-  margin: 0 auto;
-}
-
-.margincenterbottom {
-  margin: 0 auto 1rem;
 }
 
 .marginbottomlil {
