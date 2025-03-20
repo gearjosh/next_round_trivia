@@ -557,7 +557,7 @@ a:visited {
 }
 
 .img1 {
-  background-image: url("img/boring_trivia.jpg");
+  background-image: url("img/hero_trivia.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -599,19 +599,19 @@ a:visited {
 }
 
 .img8 {
-  background-image: url("img/woman_at_table.png");
+  background-image: url("img/bruce_n_vicky.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: right;
 }
 
 .img9 {
-  background-image: url("img/bar_interior.png");
+  background-image: url("img/table_group_tall.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .img10 {
-  background-image: url("img/host_with_card.png");
+  background-image: url("img/sharon_on_mic.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -623,9 +623,9 @@ a:visited {
 }
 
 .img12 {
-  background-image: url("img/long_table.png");
+  background-image: url("img/taproom_low.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .img13 {
@@ -753,11 +753,6 @@ a:visited {
   .curvedbox p {
     font-size: 2rem;
   }
-
-  #footer .height40 {
-    height: 30rem;
-  }
-
 }
 
 @media (width < 600px) {
