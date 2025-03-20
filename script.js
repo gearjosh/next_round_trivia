@@ -34,7 +34,7 @@ $("#subscribe").click(function () {
 });
 
 $("#contactForm").submit(function () {
-  $("#sending").show()
+  $(".sending").show()
 })
 
 $("#hamburger").click(function () {
