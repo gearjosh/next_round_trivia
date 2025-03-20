@@ -535,6 +535,16 @@ a:visited {
   border: none;
 }
 
+.sending {
+  display: none;
+}
+
+.sending::after {
+  display: inline-block;
+  animation: dotter steps(1, end) 2s infinite;
+  content: '';
+}
+
 /* Background Images */
 
 .bgimg {
@@ -683,6 +693,30 @@ a:visited {
   src:
     local("AlfaSlabOne-Regular"),
     url("fonts/AlfaSlabOne-Regular.ttf");
+}
+
+/* Animations */
+
+@keyframes dotter {
+  0% {
+    content: '';
+  }
+
+  25% {
+    content: '.';
+  }
+
+  50% {
+    content: '..';
+  }
+
+  75% {
+    content: '...';
+  }
+
+  100% {
+    content: '';
+  }
 }
 
 /* Media Queries */

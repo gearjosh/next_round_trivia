@@ -33,6 +33,10 @@ $("#subscribe").click(function () {
   window.open("https://nextroundtrivia.beehiiv.com/subscribe", "_blank");
 });
 
+$("#contactForm").submit(function () {
+  $("#sending").show()
+})
+
 $("#hamburger").click(function () {
   const links = $("#mobileLinks");
   if (links.css("display") == "block") {
