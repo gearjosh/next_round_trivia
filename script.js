@@ -21,6 +21,7 @@ $(".headeritem, .headeritemmobile, #contactUs").click(function () {
 $(".sublink").click(function () {
   $("#home").hide();
   $("#subscriptions").show();
+  window.location.href = currentURL.split("#")[1] + "#subscriptions"
   $(window).scrollTop(
     $("body").offset({
       top: 0,
