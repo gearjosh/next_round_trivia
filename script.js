@@ -22,7 +22,7 @@ $(".sublink").click(function () {
   $("#home").hide();
   $("#subscriptions").show();
   $(window).scrollTop(
-    $("#header").offset({
+    $("body").offset({
       top: 0,
       behavior: instant,
     })

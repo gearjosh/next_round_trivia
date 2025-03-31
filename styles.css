@@ -98,6 +98,10 @@ a:visited {
   margin-top: 1rem;
 }
 
+.margintoplil {
+  margin-top: .5rem;
+}
+
 .marginbottom {
   margin-bottom: 1rem;
 }
@@ -539,6 +543,16 @@ a:visited {
   border: none;
 }
 
+.circle {
+  border-radius: 50%;
+}
+
+.testimonial {
+  border-left: 3px solid #35B8F2;
+  padding-left: 1rem;
+  text-indent: 2rem;
+}
+
 .sending::after {
   display: inline-block;
   animation: dotter steps(1, end) 2s infinite;
@@ -591,21 +605,21 @@ a:visited {
 }
 
 .img5 {
-  background-image: url("img/beam_roof.png");
+  background-image: url("img/taproom_low.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .img6 {
-  background-image: url("img/outdoor_sail.png");
+  background-image: url("img/corner_table.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .img7 {
-  background-image: url("img/sunset_group.png");
+  background-image: url("img/growler_group.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .img8 {
@@ -633,13 +647,19 @@ a:visited {
 }
 
 .img12 {
-  background-image: url("img/taproom_low.jpg");
+  background-image: url("img/beam_roof.png");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .img13 {
   background-image: url("img/thanks_flower.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img14 {
+  background-image: url("img/sunset_group.png");
   background-size: cover;
   background-position: center;
 }
