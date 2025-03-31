@@ -741,7 +741,7 @@ a:visited {
 
 /* Media Queries */
 
-@media (900px <=width <=1250px) {
+@media (900px <= width <= 1250px) {
 
   .desktop {
     display: none;
@@ -767,7 +767,7 @@ a:visited {
   }
 }
 
-@media (width < 900px) {
+@media (width < 900px) or (any-pointer: coarse) {
 
   html {
     font-size: 70%;
