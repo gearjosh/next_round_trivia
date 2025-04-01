@@ -768,7 +768,7 @@ a:visited {
   }
 }
 
-@media (width < 900px) or (any-pointer: coarse) {
+@media (width < 900px) or (any-pointer: coarse) or (hover: none) {
 
   html {
     font-size: 70%;
