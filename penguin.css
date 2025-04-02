@@ -1,0 +1,125 @@
+.black {
+  background-color: #012326;
+}
+
+.white {
+  background-color: #F2E7DC;
+}
+
+.color1 {
+  background-color: #56BFA1;
+}
+
+.color2 {
+  background-color: #F27B35;
+}
+
+.color3 {
+  background-color: #F2A0A0;
+}
+
+.color4 {
+  background-color: #35B8F2;
+}
+
+.color5 {
+  background-color: #5699BF;
+}
+
+.black50 {
+  background-color: #01232688;
+}
+
+.white50 {
+  background-color: #F2E7DC88;
+}
+
+.color150 {
+  background-color: #56BFA188;
+}
+
+.color250 {
+  background-color: #F27B3588;
+}
+
+.color350 {
+  background-color: #F2A0A088;
+}
+
+.color450 {
+  background-color: #35B8F288;
+}
+
+.color550 {
+  background-color: #5699BF88;
+}
+
+.blackshadow {
+  text-shadow: #012326 0 .125rem;
+}
+
+.whiteshadow {
+  text-shadow: #F2E7DC 0 .125rem;
+}
+
+.color1shadow {
+  text-shadow: #56BFA1 0 .125rem;
+}
+
+.color2shadow {
+  text-shadow: #F27B35 0 .125rem;
+}
+
+.color3shadow {
+  text-shadow: #F2A0A0 0 .125rem;
+}
+
+.color4shadow {
+  text-shadow: #35B8F2 0 .125rem;
+}
+
+.color5shadow {
+  text-shadow: #5699BF 0 .125rem;
+}
+
+.blacktext {
+  color: #012326;
+}
+
+.whitetext {
+  color: #F2E7DC;
+}
+
+.color1text {
+  color: #56BFA1;
+}
+
+.color2text {
+  color: #F27B35;
+}
+
+.color3text {
+  color: #F2A0A0;
+}
+
+.color4text {
+  color: #35B8F2;
+}
+
+.color5text {
+  color: #5699BF;
+}
+
+.titleshadow {
+  /* color 5 */
+  text-shadow: #5699BF 0 .85rem, 
+  /* color 1 */
+    #56BFA1 0 1.7rem;
+}
+
+.titleshadowalt {
+  /* color 4 */
+  text-shadow: #F2A0A0 0 .85rem,
+  /* color 1 */
+    #56BFA1 0 1.7rem;
+}
