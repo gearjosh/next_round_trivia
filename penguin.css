@@ -15,7 +15,7 @@
 }
 
 .color3 {
-  background-color: #F2A0A0;
+  background-color: #FFAC5B;
 }
 
 .color4 {
@@ -43,7 +43,7 @@
 }
 
 .color350 {
-  background-color: #F2A0A088;
+  background-color: #FFAC5B88;
 }
 
 .color450 {
@@ -71,7 +71,7 @@
 }
 
 .color3shadow {
-  text-shadow: #F2A0A0 0 .125rem;
+  text-shadow: #FFAC5B 0 .125rem;
 }
 
 .color4shadow {
@@ -99,7 +99,7 @@
 }
 
 .color3text {
-  color: #F2A0A0;
+  color: #FFAC5B;
 }
 
 .color4text {
@@ -119,7 +119,70 @@
 
 .titleshadowalt {
   /* color 4 */
-  text-shadow: #F2A0A0 0 .85rem,
+  text-shadow: #FFAC5B 0 .85rem,
   /* color 1 */
     #56BFA1 0 1.7rem;
+}
+
+body {
+  /* white */
+  background-color: #F2E7DC;
+  /* black */
+  color: #012326;
+}
+
+a {
+  /* color 5 */
+  color: #5699BF;
+}
+
+a:visited {
+  /* color 1 */
+  color: #56BFA1;
+}
+
+.headeritem:hover {
+  /* color 4 */
+  color: #35B8F2;
+}
+
+.headeritemmobile:visited,
+.headeritem:visited {
+  /* white */
+  color: #F2E7DC;
+}
+
+.curvedbox {
+  /* color3 */
+  border: 3px solid #FFAC5B
+}
+
+.button {
+  /* black50 */
+  box-shadow: 0 .4rem #01232688;
+}
+
+.button:hover {
+  /* white */
+  text-shadow: #F2E7DC 0 .125rem;
+}
+
+.bigbutton {
+  /* black50 */
+  box-shadow: 0 .75rem #01232688;
+}
+
+.bigbutton:hover {
+  /* black */
+  text-shadow: #012326 0 .125rem;
+}
+
+.contact a {
+  /* color 4 */
+  color: #35B8F2;
+}
+
+.testimonial {
+  /* color 4 */
+  border-left: 3px solid #35B8F2;
 }

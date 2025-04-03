@@ -123,3 +123,66 @@
     /* color 1 */
     #F2E63D 0 1.7rem;
 }
+
+body {
+  /* white */
+  background-color: #F2E7DC;
+  /* black */
+  color: #373740;
+}
+
+a {
+  /* color 5 */
+  color: #5699BF;
+}
+
+a:visited {
+  /* color 1 */
+  color: #F2E63D;
+}
+
+.headeritem:hover {
+  /* color 4 */
+  color: #8C7F3B;
+}
+
+.headeritemmobile:visited,
+.headeritem:visited {
+  /* white */
+  color: #F2E7DC;
+}
+
+.curvedbox {
+  /* color3 */
+  border: 3px solid #BFA93B
+}
+
+.button {
+  /* black50 */
+  box-shadow: 0 .4rem #37374088;
+}
+
+.button:hover {
+  /* white */
+  text-shadow: #F2E7DC 0 .125rem;
+}
+
+.bigbutton {
+  /* black50 */
+  box-shadow: 0 .75rem #37374088;
+}
+
+.bigbutton:hover {
+  /* black */
+  text-shadow: #373740 0 .125rem;
+}
+
+.contact a {
+  /* color 4 */
+  color: #8C7F3B;
+}
+
+.testimonial {
+  /* color 4 */
+  border-left: 3px solid #8C7F3B;
+}

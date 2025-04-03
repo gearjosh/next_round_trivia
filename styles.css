@@ -8,8 +8,6 @@ html {
 
 body {
   font-family: "Moon Regular", sans-serif;
-  background-color: #F2E7DC;
-  color: #012326;
   position: relative;
   width: 100vw;
 }
@@ -22,14 +20,6 @@ video {
 
 textarea {
   resize: vertical;
-}
-
-a {
-  color: #5699BF;
-}
-
-a:visited {
-  color: #56BFA1;
 }
 
 /* Flex */
@@ -224,7 +214,7 @@ a:visited {
 
 /* Text Formatting */
 
-.whitetext {
+/* .whitetext {
   color: #F2E7DC;
 }
 
@@ -250,7 +240,7 @@ a:visited {
 
 .pinktext {
   color: #F2A0A0;
-}
+} */
 
 .slab {
   font-family: "Alfa Slab";
@@ -308,7 +298,7 @@ a:visited {
   text-align: right;
 }
 
-.titleshadow {
+/* .titleshadow {
   text-shadow: #5699BF 0 .85rem,
     #56BFA1 0 1.7rem;
 }
@@ -340,7 +330,7 @@ a:visited {
 
 .whiteshadow {
   text-shadow: #F2E7DC 0 .125rem;
-}
+} */
 
 .listpencil {
   list-style-image: url("img/lilpencil.png");
@@ -350,7 +340,7 @@ a:visited {
 
 /* Background Colors */
 
-.white {
+/* .white {
   background-color: #F2E7DC;
 }
 
@@ -404,7 +394,7 @@ a:visited {
 
 .pink50 {
   background-color: #F2A0A088;
-}
+} */
 
 /* Transformations */
 
@@ -429,7 +419,6 @@ a:visited {
 }
 
 .headeritem {
-  color: #F2E7DC;
   align-self: center;
   font-size: larger;
   text-decoration: none;
@@ -445,7 +434,6 @@ a:visited {
 }
 
 .headeritemmobile {
-  color: #F2E7DC;
   text-decoration: none;
   font-size: 3rem;
   padding: .5rem;
@@ -463,24 +451,12 @@ a:visited {
   font-size: 5.6rem;
   right: 1rem;
   top: 0;
-  color: #F2E7DC;
-}
-
-.headeritemmobile:hover,
-.headeritem:hover {
-  color: #71C8FB;
-}
-
-.headeritemmobile:visited,
-.headeritem:visited {
-  color: #F2E7DC;
 }
 
 .curvedbox {
   width: 15vw;
   min-height: 15vw;
   border-radius: 1rem 5rem;
-  border: 3px solid #F2A0A0
 }
 
 .tallbox {
@@ -500,13 +476,8 @@ a:visited {
   border-radius: .5rem;
   font-size: 1.2rem;
   width: 30vw;
-  box-shadow: 0 .4rem #01232688;
   font-family: "Moon Regular";
   display: block;
-}
-
-.button:hover {
-  text-shadow: #F2E7DC 0 .125rem;
 }
 
 .button:active,
@@ -516,12 +487,7 @@ a:visited {
 }
 
 .bigbutton {
-  box-shadow: 0 .75rem #01232688;
   cursor: pointer;
-}
-
-.bigbutton:hover {
-  text-shadow: #012326 0 .125rem;
 }
 
 .bigbutton:active,
@@ -531,7 +497,6 @@ a:visited {
 }
 
 .contact a {
-  color: #35B8F2;
   text-decoration: none;
 }
 
@@ -548,7 +513,6 @@ a:visited {
 }
 
 .testimonial {
-  border-left: 3px solid #35B8F2;
   padding-left: 1rem;
   text-indent: 2rem;
   line-height: 1.5;

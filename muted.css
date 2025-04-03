@@ -7,23 +7,23 @@
 }
 
 .color1 {
-  background-color: #48BF36;
+  background-color: #B2C568;
 }
 
 .color2 {
-  background-color: #F2B807;
+  background-color: #789342;
 }
 
 .color3 {
-  background-color: #D9601A;
+  background-color: #ECC199;
 }
 
 .color4 {
-  background-color: #8C1207;
+  background-color: #76C1C3;
 }
 
 .color5 {
-  background-color: #5699BF;
+  background-color: #548D95;
 }
 
 .black50 {
@@ -35,23 +35,23 @@
 }
 
 .color150 {
-  background-color: #48BF3688;
+  background-color: #B2C56888;
 }
 
 .color250 {
-  background-color: #F2B80788;
+  background-color: #78934288;
 }
 
 .color350 {
-  background-color: #D9601A88;
+  background-color: #ECC19988;
 }
 
 .color450 {
-  background-color: #8C120788;
+  background-color: #76C1C388;
 }
 
 .color550 {
-  background-color: #5699BF88;
+  background-color: #548D9588;
 }
 
 .blackshadow {
@@ -63,23 +63,23 @@
 }
 
 .color1shadow {
-  text-shadow: #48BF36 0 .125rem;
+  text-shadow: #B2C568 0 .125rem;
 }
 
 .color2shadow {
-  text-shadow: #F2B807 0 .125rem;
+  text-shadow: #789342 0 .125rem;
 }
 
 .color3shadow {
-  text-shadow: #D9601A 0 .125rem;
+  text-shadow: #ECC199 0 .125rem;
 }
 
 .color4shadow {
-  text-shadow: #8C1207 0 .125rem;
+  text-shadow: #76C1C3 0 .125rem;
 }
 
 .color5shadow {
-  text-shadow: #5699BF 0 .125rem;
+  text-shadow: #548D95 0 .125rem;
 }
 
 .blacktext {
@@ -91,37 +91,37 @@
 }
 
 .color1text {
-  color: #48BF36;
+  color: #B2C568;
 }
 
 .color2text {
-  color: #F2B807;
+  color: #789342;
 }
 
 .color3text {
-  color: #D9601A;
+  color: #ECC199;
 }
 
 .color4text {
-  color: #8C1207;
+  color: #76C1C3;
 }
 
 .color5text {
-  color: #5699BF;
+  color: #548D95;
 }
 
 .titleshadow {
   /* color 5 */
-  text-shadow: #5699BF 0 .85rem,
+  text-shadow: #548D95 0 .85rem,
     /* color 1 */
-    #48BF36 0 1.7rem;
+    #B2C568 0 1.7rem;
 }
 
 .titleshadowalt {
   /* color 3 */
-  text-shadow: #D9601A 0 .85rem,
+  text-shadow: #ECC199 0 .85rem,
     /* color 1 */
-    #48BF36 0 1.7rem;
+    #B2C568 0 1.7rem;
 }
 
 body {
@@ -133,17 +133,17 @@ body {
 
 a {
   /* color 5 */
-  color: #5699BF;
+  color: #548D95;
 }
 
 a:visited {
   /* color 1 */
-  color: #56BFA1;
+  color: #B2C568;
 }
 
 .headeritem:hover {
   /* color 4 */
-  color: #8C1207;
+  color: #76C1C3;
 }
 
 .headeritemmobile:visited,
@@ -154,7 +154,7 @@ a:visited {
 
 .curvedbox {
   /* color3 */
-  border: 3px solid #D9601A
+  border: 3px solid #ECC199
 }
 
 .button {
@@ -179,10 +179,10 @@ a:visited {
 
 .contact a {
   /* color 4 */
-  color: #8C1207;
+  color: #76C1C3;
 }
 
 .testimonial {
   /* color 4 */
-  border-left: 3px solid #8C1207;
+  border-left: 3px solid #76C1C3;
 }

@@ -7,23 +7,23 @@
 }
 
 .color1 {
-  background-color: #48BF36;
+  background-color: #C04BF2;
 }
 
 .color2 {
-  background-color: #F2B807;
+  background-color: #6232A6;
 }
 
 .color3 {
-  background-color: #D9601A;
+  background-color: #20448C;
 }
 
 .color4 {
-  background-color: #8C1207;
+  background-color: #3D71D9;
 }
 
 .color5 {
-  background-color: #5699BF;
+  background-color: #144673;
 }
 
 .black50 {
@@ -35,23 +35,23 @@
 }
 
 .color150 {
-  background-color: #48BF3688;
+  background-color: #C04BF288;
 }
 
 .color250 {
-  background-color: #F2B80788;
+  background-color: #6232A688;
 }
 
 .color350 {
-  background-color: #D9601A88;
+  background-color: #20448C88;
 }
 
 .color450 {
-  background-color: #8C120788;
+  background-color: #3D71D988;
 }
 
 .color550 {
-  background-color: #5699BF88;
+  background-color: #14467388;
 }
 
 .blackshadow {
@@ -63,23 +63,23 @@
 }
 
 .color1shadow {
-  text-shadow: #48BF36 0 .125rem;
+  text-shadow: #C04BF2 0 .125rem;
 }
 
 .color2shadow {
-  text-shadow: #F2B807 0 .125rem;
+  text-shadow: #6232A6 0 .125rem;
 }
 
 .color3shadow {
-  text-shadow: #D9601A 0 .125rem;
+  text-shadow: #20448C 0 .125rem;
 }
 
 .color4shadow {
-  text-shadow: #8C1207 0 .125rem;
+  text-shadow: #3D71D9 0 .125rem;
 }
 
 .color5shadow {
-  text-shadow: #5699BF 0 .125rem;
+  text-shadow: #144673 0 .125rem;
 }
 
 .blacktext {
@@ -91,37 +91,37 @@
 }
 
 .color1text {
-  color: #48BF36;
+  color: #C04BF2;
 }
 
 .color2text {
-  color: #F2B807;
+  color: #6232A6;
 }
 
 .color3text {
-  color: #D9601A;
+  color: #20448C;
 }
 
 .color4text {
-  color: #8C1207;
+  color: #3D71D9;
 }
 
 .color5text {
-  color: #5699BF;
+  color: #144673;
 }
 
 .titleshadow {
   /* color 5 */
-  text-shadow: #5699BF 0 .85rem,
+  text-shadow: #144673 0 .85rem,
     /* color 1 */
-    #48BF36 0 1.7rem;
+    #C04BF2 0 1.7rem;
 }
 
 .titleshadowalt {
   /* color 3 */
-  text-shadow: #D9601A 0 .85rem,
+  text-shadow: #20448C 0 .85rem,
     /* color 1 */
-    #48BF36 0 1.7rem;
+    #C04BF2 0 1.7rem;
 }
 
 body {
@@ -133,17 +133,17 @@ body {
 
 a {
   /* color 5 */
-  color: #5699BF;
+  color: #144673;
 }
 
 a:visited {
   /* color 1 */
-  color: #56BFA1;
+  color: #C04BF2;
 }
 
 .headeritem:hover {
   /* color 4 */
-  color: #8C1207;
+  color: #3D71D9;
 }
 
 .headeritemmobile:visited,
@@ -154,7 +154,7 @@ a:visited {
 
 .curvedbox {
   /* color3 */
-  border: 3px solid #D9601A
+  border: 3px solid #20448C
 }
 
 .button {
@@ -179,10 +179,10 @@ a:visited {
 
 .contact a {
   /* color 4 */
-  color: #8C1207;
+  color: #3D71D9;
 }
 
 .testimonial {
   /* color 4 */
-  border-left: 3px solid #8C1207;
+  border-left: 3px solid #3D71D9;
 }
