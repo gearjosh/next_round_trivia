@@ -50,8 +50,9 @@ $(".headeritem, .headeritemmobile, #contactUs").click(function () {
 
 $(".sublink").click(function () {
   $("#home").hide();
+  $("#faq").hide();
   $("#subscriptions").show();
-  window.location.href = window.location.href.split("#")[1] + "#subscriptions"
+  window.location.href = window.location.href.split("#")[0] + "#subscriptions"
   $(window).scrollTop(
     $("body").offset({
       top: 0,
