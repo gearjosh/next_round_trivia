@@ -70,6 +70,10 @@ textarea {
   align-items: flex-end;
 }
 
+.flexselfend {
+  align-self: flex-end;
+}
+
 /* Margins, Padding, and Box Formatting */
 
 .margincenter {
@@ -140,6 +144,10 @@ textarea {
   height: 30rem;
 }
 
+.height35 {
+  height: 35rem;
+}
+
 .height40 {
   height: 40rem;
 }
@@ -172,6 +180,18 @@ textarea {
   width: 45vw;
 }
 
+.width50 {
+  width: 50vw;
+}
+
+.width55 {
+  width: 55vw;
+}
+
+.width80 {
+  width: 80vw;
+}
+
 .widthhalf {
   width: 50%;
 }
@@ -186,6 +206,10 @@ textarea {
 
 .width40percent {
   width: 40%;
+}
+
+.width100percent {
+  width: 100%;
 }
 
 .top {
@@ -466,8 +490,16 @@ textarea {
   flex-wrap: nowrap;
 }
 
-.sublink {
+.pointer {
   cursor: pointer;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  margin: .5rem .125rem;
+  display: inline-block;
+  transition: background-color 300ms ease;
 }
 
 .button {
@@ -484,10 +516,6 @@ textarea {
 .button:focus {
   transform: translateY(0.4rem);
   box-shadow: none;
-}
-
-.bigbutton {
-  cursor: pointer;
 }
 
 .bigbutton:active,
@@ -525,6 +553,11 @@ textarea {
 }
 
 /* Background Images */
+
+.imgfit {
+  max-width: 100%;
+  object-fit: contain;
+}
 
 .bgimg {
   position: relative;
@@ -738,6 +771,10 @@ textarea {
     font-size: 70%;
   }
 
+  img.testarrow {
+    transform: scale(.7);
+  }
+
   .listpencil {
     list-style-image: url("img/lilpencil70.png");
   }
@@ -779,6 +816,10 @@ textarea {
     font-size: 40%;
   }
 
+  img.testarrow {
+    transform: scale(.4);
+  }
+
   .listpencil {
     list-style-image: none;
     list-style-type: disc;
@@ -797,6 +838,10 @@ textarea {
 @media (width < 330px) {
   html {
     font-size: 30%;
+  }
+
+  img.testarrow {
+    transform: scale(.3);
   }
 
   .listpencil {

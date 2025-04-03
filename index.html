@@ -140,14 +140,79 @@
 
 
     <div class="flexcol flexbetween padded">
-      <h2 class="color3text slab tilt titletext titleshadow">Increase sales<br />and build your brand</h2>
+      <h2 class="color4text slab tilt titletext titleshadowalt">Increase sales<br />and build your brand</h2>
       <div class="flexrow flexend">
-        <p class="widthhalf h3text righttext">
+        <p class="widthhalf h3text righttext"> <!--color3 padded rounded-->
           Our professional trivia writer has been writing trivia for use in bars, breweries, fundraisers, and private
           events since 2017. <br /><br />
           We have years worth of material and are still writing new trivia every single week.
         </p>
       </div>
+    </div>
+
+    <div class="doublepadded flexrow flexbetween flexaligncenter color350 height30">
+      <img class="pointer testarrow" src="img/left_arrow.png" alt="arrow pointing left" onclick="changeTestimonials(-1)">
+        <div class="flexcol flexend">
+
+          <div class="flexrow flexbetween flexaligncenter width80 testslide">
+            <img class="circle height20" src="img/testimonial_1.png" alt="a happy Next Round Trivia patron">
+            <div class="flexcol flexcenter width55 mont h4text testimonial marginleft">
+              <p>
+                My friends and I have been going to trivia with Sean at Boring Brewery for a couple years now. We have always
+                enjoyed to
+                personal touches Sean puts into each game, and the exciting and engaging structure that all the rounds have.
+              </p>
+              <!-- <p>
+                Sean does a great job of making the questions challenging without making them difficult to the point of
+                frustration. This always leads to discussion and debate amongst our team.
+              </p> -->
+              <p>
+                I look forward to trivia night each and every week, and I know that without Sean's
+                personality and style, the night wouldn't be as much of a bright spot as it is.
+              </p>
+              <p class="color5text slab righttext margintoplil">- Neil Hatley<br />Next Round Trivia Regular</p>
+            </div>
+          </div>
+
+          <div class="flexrow flexbetween flexaligncenter width80 testslide hide">
+            <img class="circle height20" src="img/testimonial_2.png" alt="a happy Next Round Trivia patron">
+            <div class="flexcol flexcenter width55 mont h4text testimonial marginleft">
+              <p>
+                As someone who loves trivia but doesn't always do the best, I still love going to trivia every Thursday night
+                and seeing what Sean has cooked up for us. The structure of his trivia is engaging, fun and easy to follow.
+              </p>
+              <p>
+                I even modeled a trivia night I did for a bunch of friends after Seans and it was a huge hit! I think any bar,
+                family reunion, or themed party would have a great time using Next Round Trivia.
+              </p>
+              <p class="color5text slab righttext margintoplil">- Cyric Willard<br />Next Round Trivia Regular</p>
+            </div>
+          </div>
+        </div>
+      <img class="pointer testarrow" src="img/right_arrow.png" alt="arrow pointing right" onclick="changeTestimonials(+1)">
+    </div>
+    <div class="color350">
+      <div class="centertext">
+        <span class="dot circle pointer white" onclick="currentTestimonial(1)"></span>
+        <span class="dot circle pointer white" onclick="currentTestimonial(2)"></span>
+      </div>
+    </div>
+
+    <div class="color2 height5 doublepadded flexrow flexaround desktop smallflex">
+      <img src="img/pencil_L.png" alt="A pencil pointing right">
+      <img src="img/pencil_L.png" alt="A pencil pointing right">
+      <img src="img/pencil_L.png" alt="A pencil pointing right">
+      <img src="img/pencil_R.png" alt="A pencil pointing left">
+      <img src="img/pencil_R.png" alt="A pencil pointing left">
+      <img src="img/pencil_R.png" alt="A pencil pointing left">
+    </div>
+    <div class="color2 height5 doublepadded flexrow flexaround mobileflex">
+      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
+      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
+      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
+      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
+      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
+      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
     </div>
 
     <div class="img5 height40"></div>
@@ -222,7 +287,7 @@
       </div>
 
       <div class="flexrow flexaround h4text centertext margintop marginbottom">
-        <div class="flexcol flexbetween tallbox sublink padded color5">
+        <div class="flexcol flexbetween tallbox sublink pointer padded color5">
           <div>
             <h3 class="h3text capsbold whitetext blackshadow marginbottom height5">
               Weekly<br />Subscription
@@ -234,7 +299,7 @@
           <p class="mont">Get our trivia in your inbox weekly!</p>
         </div>
 
-        <div class="flexcol flexbetween tallbox sublink padded color5">
+        <div class="flexcol flexbetween tallbox sublink pointer padded color5">
           <div>
             <h3 class="h3text capsbold whitetext blackshadow marginbottom height5">
               Monthly<br />Subscription
@@ -247,7 +312,7 @@
           </p>
         </div>
 
-        <div class="flexcol flexbetween tallbox sublink padded color5">
+        <div class="flexcol flexbetween tallbox sublink pointer padded color5">
           <div>
             <h3 class="h3text capsbold whitetext blackshadow marginbottom height5">
               Yearly<br />Subscription
@@ -261,38 +326,6 @@
         </div>
       </div>
 
-    </div>
-
-    <div class="color2 height5 doublepadded flexrow flexaround desktop smallflex">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-    </div>
-    <div class="color2 height5 doublepadded flexrow flexaround mobileflex">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-    </div>
-
-    <div class="doublepadded flexrow flexaround flexaligncenter">
-      <img class="circle height20" src="img/testimonial_2.png" alt="a happy Next Round Trivia patron">
-      <div class="flexcol flexcenter width60percent mont h4text testimonial">
-        <p>
-          As someone who loves trivia but doesn't always do the best, I still love going to trivia every Thursday night
-          and seeing what Sean has cooked up for us. The structure of his trivia is engaging, fun and easy to follow.
-        </p>
-        <p>
-          I even modeled a trivia night I did for a bunch of friends after Seans and it was a huge hit! I think any bar,
-          family reunion, or themed party would have a great time using Next Round Trivia.
-        </p>
-        <p class="color5text slab righttext margintoplil">- Cyric Willard<br />Next Round Trivia Regular</p>
-      </div>
     </div>
 
     <div class="color1 height5 doublepadded flexrow flexaround desktop smallflex">
@@ -435,7 +468,7 @@
 
     <div class="flexrow flexcenter">
       <div id="subscribe"
-        class="color1 bigbutton capslight h2text whitetext centertext width60percent rounded padded margintop marginbottom">
+        class="color1 bigbutton pointer capslight h2text whitetext centertext width60percent rounded padded margintop marginbottom">
         <p>Click here to subscribe<br />or update your subscription</p>
       </div>
     </div>
@@ -814,43 +847,6 @@
       <img src="img/pencil_R.png" alt="A pencil pointing left">
     </div>
     <div class="color3 height5 doublepadded flexrow flexaround mobileflex">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-      <img class="size70" src="img/pencil_R70.png" alt="A pencil pointing left">
-    </div>
-
-    <div class="doublepadded flexrow flexaround flexaligncenter">
-      <img class="circle height20" src="img/testimonial_1.png" alt="a happy Next Round Trivia patron">
-      <div class="flexcol flexcenter width60percent mont h4text testimonial">
-        <p>
-          My friends and I have been going to trivia with Sean at Boring Brewery for a couple years now. We have always
-          enjoyed to
-          personal touches Sean puts into each game, and the exciting and engaging structure that all the rounds have.
-        </p>
-        <p>
-          Sean does a great job of making the questions challenging without making them difficult to the point of
-          frustration. This always leads to discussion and debate amongst our team.
-        </p>
-        <p>
-          I look forward to trivia night each and every week, and I know that without Sean's
-          personality and style, the night wouldn't be as much of a bright spot as it is.
-        </p>
-        <p class="color5text slab righttext margintoplil">- Neil Hatley<br />Next Round Trivia Regular</p>
-      </div>
-    </div>
-
-    <div class="color2 height5 doublepadded flexrow flexaround desktop smallflex">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_L.png" alt="A pencil pointing right">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-      <img src="img/pencil_R.png" alt="A pencil pointing left">
-    </div>
-    <div class="color2 height5 doublepadded flexrow flexaround mobileflex">
       <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
       <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">
       <img class="size70" src="img/pencil_L70.png" alt="A pencil pointing right">

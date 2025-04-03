@@ -128,21 +128,21 @@ a:visited {
 }
 
 .titleshadow {
-  /* color 5 */
+  /* color5 */
   text-shadow: #5699BF 0 .85rem, 
-  /* color 1 */
+  /* color1 */
     #56BFA1 0 1.7rem;
 }
 
 .titleshadowalt {
-  /* color 4 */
+  /* color4 */
   text-shadow: #FFAC5B 0 .85rem,
-  /* color 1 */
+  /* color1 */
     #56BFA1 0 1.7rem;
 }
 
 .headeritem:hover {
-  /* color 4 */
+  /* color4 */
   color: #35B8F2;
 }
 
@@ -178,13 +178,18 @@ a:visited {
 }
 
 .contact a {
-  /* color 4 */
+  /* color4 */
   color: #35B8F2;
 }
 
 .testimonial {
-  /* color 4 */
+  /* color4 */
   border-left: 3px solid #5699BF;
+}
+
+.dot:hover {
+  /* black50 */
+  background-color: #5699BF88;
 }
 
 /* old pink #35B8F2 */

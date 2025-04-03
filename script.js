@@ -1,3 +1,33 @@
+// Utility Functions
+
+function changeTestimonials(n) {
+  showTestimonials(testimonialIndex += n)
+}
+
+function currentTestimonial(n) {
+  showTestimonials(testimonialIndex = n)
+}
+
+function showTestimonials(n) {
+  let i;
+  let testimonials = document.getElementsByClassName("testslide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > testimonials.length) {
+    testimonialIndex = 1;
+  }
+  if (n < 1) {
+    testimonialIndex = slides.length;
+  }
+  for (i = 0; i < testimonials.length; i++) {
+    testimonials[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" color5", "");
+  }
+  testimonials[testimonialIndex - 1].style.display = "flex";
+  dots[testimonialIndex - 1].className += " color5"
+}
+
 // Event Listeners
 $(".headeritem, .headeritemmobile, #contactUs").click(function () {
   const toShow = $(this).attr("href").slice(1) || "home";
@@ -51,6 +81,8 @@ $("#hamburger").click(function () {
 // Initial Page Load
 const currentURL = window.location.href;
 const page = currentURL.split("#")[1] || null;
+let testimonialIndex = 1;
+showTestimonials(testimonialIndex);
 if (page) {
   $(".headeritem").each(function () {
     const toHide = $(this).attr("href").slice(1) || "home";
