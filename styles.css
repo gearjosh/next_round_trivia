@@ -144,8 +144,16 @@ textarea {
   height: 30rem;
 }
 
+.height30min {
+  min-height: 30rem;
+}
+
 .height35 {
   height: 35rem;
+}
+
+.height35min {
+  min-height: 35rem;
 }
 
 .height40 {
