@@ -9,4 +9,5 @@ Built with HTML, CSS, PHP and vanilla JavaScript. No libraries or frameworks wer
 - [x] Add Contact Us form
 - [x] Add captcha to contact form
 - [x] Optimize for Mobile
-- [ ] Add recognition for tablets/phones (https://stackoverflow.com/questions/14942081/detect-if-a-browser-in-a-mobile-device-ios-android-phone-tablet-is-used)
+- [x] Add recognition for tablets/phones (https://stackoverflow.com/questions/14942081/detect-if-a-browser-in-a-mobile-device-ios-android-phone-tablet-is-used)
+- [x] Add carousel for testimonials
