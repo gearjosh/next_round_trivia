@@ -1,3 +1,20 @@
+body {
+  /* white */
+  background-color: #F2E7DC;
+  /* black */
+  color: #012326;
+}
+
+a {
+  /* color 5 */
+  color: #5699BF;
+}
+
+a:visited {
+  /* color 1 */
+  color: #56BFA1;
+}
+
 .black {
   background-color: #012326;
 }
@@ -124,23 +141,6 @@
     #56BFA1 0 1.7rem;
 }
 
-body {
-  /* white */
-  background-color: #F2E7DC;
-  /* black */
-  color: #012326;
-}
-
-a {
-  /* color 5 */
-  color: #5699BF;
-}
-
-a:visited {
-  /* color 1 */
-  color: #56BFA1;
-}
-
 .headeritem:hover {
   /* color 4 */
   color: #35B8F2;
@@ -184,5 +184,7 @@ a:visited {
 
 .testimonial {
   /* color 4 */
-  border-left: 3px solid #35B8F2;
+  border-left: 3px solid #5699BF;
 }
+
+/* old pink #35B8F2 */
