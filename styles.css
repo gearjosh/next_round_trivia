@@ -544,6 +544,10 @@ textarea {
   border: none;
 }
 
+.testslide {
+  animation: fade 600ms ease-in both;
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -742,6 +746,16 @@ textarea {
 
   100% {
     content: '';
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
