@@ -507,7 +507,7 @@ textarea {
   height: 1rem;
   margin: .5rem .125rem;
   display: inline-block;
-  transition: background-color 300ms ease;
+  transition: background-color 400ms ease;
 }
 
 .button {
