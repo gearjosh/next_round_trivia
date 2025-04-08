@@ -36,6 +36,9 @@ function showTestimonials(n) {
 // Event Listeners
 $(".headeritem, .headeritemmobile, #contactUs").click(function () {
   const toShow = $(this).attr("href").slice(1) || "home";
+  if (toShow == "home") {
+    currentTestimonial(1);
+  }
 
   $(".headeritem").each(function () {
     const toHide = $(this).attr("href").slice(1) || "home";
