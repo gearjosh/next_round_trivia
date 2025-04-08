@@ -1,22 +1,26 @@
 // Utility Functions
 
-function changeTestimonials(n) {
-  showTestimonials(testimonialIndex += n)
-}
-
 function currentTestimonial(n) {
-  showTestimonials(testimonialIndex = n)
+  clearTimeout(timeoutID);
+  showTestimonials((testimonialIndex = n));
 }
 
 function showTestimonials(n) {
   let i;
   let testimonials = document.getElementsByClassName("testslide");
   let dots = document.getElementsByClassName("dot");
-  if (n > testimonials.length) {
-    testimonialIndex = 1;
-  }
-  if (n < 1) {
-    testimonialIndex = slides.length;
+  if (n) {
+    if (n > testimonials.length) {
+      testimonialIndex = 1;
+    }
+    if (n < 1) {
+      testimonialIndex = slides.length;
+    }
+  } else {
+    testimonialIndex++;
+    if (testimonialIndex > testimonials.length) {
+      testimonialIndex = 1;
+    }
   }
   for (i = 0; i < testimonials.length; i++) {
     testimonials[i].style.display = "none";
@@ -25,7 +29,8 @@ function showTestimonials(n) {
     dots[i].className = dots[i].className.replace(" color5", "");
   }
   testimonials[testimonialIndex - 1].style.display = "flex";
-  dots[testimonialIndex - 1].className += " color5"
+  dots[testimonialIndex - 1].className += " color5";
+  timeoutID = setTimeout(showTestimonials, 20000);
 }
 
 // Event Listeners
@@ -52,7 +57,7 @@ $(".sublink").click(function () {
   $("#home").hide();
   $("#faq").hide();
   $("#subscriptions").show();
-  window.location.href = window.location.href.split("#")[0] + "#subscriptions"
+  window.location.href = window.location.href.split("#")[0] + "#subscriptions";
   $(window).scrollTop(
     $("body").offset({
       top: 0,
@@ -66,7 +71,7 @@ $("#subscribe").click(function () {
 });
 
 $("#contactForm").submit(function () {
-  $("#contactForm button").addClass("marginbottombig")
+  $("#contactForm button").addClass("marginbottombig");
   $(".sending").show();
 });
 
@@ -82,8 +87,9 @@ $("#hamburger").click(function () {
 // Initial Page Load
 const currentURL = window.location.href;
 const page = currentURL.split("#")[1] || null;
-let testimonialIndex = 1;
-showTestimonials(testimonialIndex);
+let testimonialIndex = 0;
+let timeoutID;
+showTestimonials();
 if (page) {
   $(".headeritem").each(function () {
     const toHide = $(this).attr("href").slice(1) || "home";
