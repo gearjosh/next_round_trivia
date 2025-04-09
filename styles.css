@@ -831,6 +831,11 @@ textarea {
   .curvedbox p {
     font-size: 2rem;
   }
+
+  .dot {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 @media (width < 600px) {
