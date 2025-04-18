@@ -597,19 +597,19 @@ textarea {
 }
 
 .img2 {
-  background-image: url("img/typewriter.png");
+  background-image: url("img/typewriter.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .img3 {
-  background-image: url("img/host_it.png");
+  background-image: url("img/host_it.jpg");
   background-size: cover;
   background-position: right;
 }
 
 .img4 {
-  background-image: url("img/play_it.png");
+  background-image: url("img/play_it.jpg");
   background-size: cover;
   background-position: center;
 }
