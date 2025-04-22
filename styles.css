@@ -275,7 +275,7 @@ textarea {
 } */
 
 .slab {
-  font-family: "Alfa Slab";
+  font-family: "Alfa Slab", "Impact", monospace;
 }
 
 .light {
