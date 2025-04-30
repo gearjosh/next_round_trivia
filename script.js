@@ -70,7 +70,7 @@ $(".sublink").click(function () {
 });
 
 $("#subscribe").click(function () {
-  window.open("https://nextroundtrivia.beehiiv.com/subscribe", "_blank");
+  window.open("https://nextroundtrivia.beehiiv.com/upgrade", "_blank");
 });
 
 $("#contactForm").submit(function () {
