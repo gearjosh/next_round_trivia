@@ -493,7 +493,7 @@ textarea {
 
 .tallbox {
   width: 30vw;
-  min-height: 25rem;
+  min-height: 20rem;
   border-radius: 1rem;
   flex-wrap: nowrap;
 }
