@@ -56,19 +56,6 @@ $(".headeritem, .headeritemmobile, #contactUs").click(function () {
   );
 });
 
-// $(".sublink").click(function () {
-//   $("#home").hide();
-//   $("#faq").hide();
-//   $("#subscriptions").show();
-//   window.location.href = window.location.href.split("#")[0] + "#subscriptions";
-//   $(window).scrollTop(
-//     $("body").offset({
-//       top: 0,
-//       behavior: instant,
-//     })
-//   );
-// });
-
 $(".subscribeLink").click(function () {
   window.open("https://nextroundtrivia.beehiiv.com/upgrade", "_blank");
 });
