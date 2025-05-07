@@ -216,6 +216,10 @@ textarea {
   width: 40%;
 }
 
+.width80percent {
+  width: 80%;
+}
+
 .width100percent {
   width: 100%;
 }
