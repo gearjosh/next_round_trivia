@@ -78,12 +78,7 @@ $("#contactForm").submit(function () {
 });
 
 $("#hamburger").click(function () {
-  const links = $("#mobileLinks");
-  if (links.css("display") == "block") {
-    links.css("display", "none");
-  } else {
-    links.css("display", "block");
-  }
+  $("#mobileLinks").slideToggle();
 });
 
 // Initial Page Load

@@ -685,6 +685,7 @@ textarea {
   src:
     local("Moon2.0-Light"),
     url("fonts/Moon2.0-Light.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -692,6 +693,7 @@ textarea {
   src:
     local("Moon2.0-Regular"),
     url("fonts/Moon2.0-Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -699,6 +701,7 @@ textarea {
   src:
     local("Moon2.0-Bold"),
     url("fonts/Moon2.0-Bold.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -706,6 +709,7 @@ textarea {
   src:
     local("Moon Light"),
     url("fonts/Moon\ Light.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -713,6 +717,7 @@ textarea {
   src:
     local("Moon Bold"),
     url("fonts/Moon\ Bold.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -720,6 +725,7 @@ textarea {
   src:
     local("Montserrat-Regular"),
     url("fonts/Montserrat-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -727,6 +733,7 @@ textarea {
   src:
     local("AlfaSlabOne-Regular"),
     url("fonts/AlfaSlabOne-Regular.ttf");
+  font-display: swap;
 }
 
 /* Animations */
