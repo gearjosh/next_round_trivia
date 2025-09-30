@@ -69,7 +69,7 @@ $(".sublink").click(function () {
 });
 
 $(".subscribeLink").click(function () {
-  window.open("https://nextroundtrivia.beehiiv.com/upgrade", "_blank");
+  window.open("https://nextroundtrivia.beehiiv.com", "_blank");
 });
 
 $("#contactForm").submit(function () {
