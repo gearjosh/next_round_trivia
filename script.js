@@ -68,6 +68,10 @@ $(".sublink").click(function () {
   );
 });
 
+$(".article").click(function () {
+  $(this).find(".articletext").slideToggle();
+});
+
 $(".subscribeLink").click(function () {
   window.open("https://nextroundtrivia.beehiiv.com", "_blank");
 });

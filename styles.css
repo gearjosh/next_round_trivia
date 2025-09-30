@@ -22,6 +22,11 @@ textarea {
   resize: vertical;
 }
 
+hr {
+  color: #5699BF;
+  height: .125rem;
+}
+
 /* Flex */
 
 .flexrow {
@@ -326,6 +331,10 @@ textarea {
   font-size: 1.5rem;
 }
 
+.largetext {
+  font-size: 1.05rem;
+}
+
 .centertext {
   text-align: center;
 }
@@ -374,6 +383,10 @@ textarea {
   line-height: 175%;
 }
 
+.listdisc {
+  list-style: disc;
+  /* line-height: 150%; */
+}
 /* Background Colors */
 
 /* .white {
@@ -573,6 +586,13 @@ textarea {
 .imgfit {
   max-width: 100%;
   object-fit: contain;
+}
+
+.seansface {
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 40rem;
+  background-position: center;
 }
 
 .bgimg {
